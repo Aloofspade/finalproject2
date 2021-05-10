@@ -182,9 +182,9 @@ h6 {
 
 /*--------------------------------------------------------------
 # Navigation Menu
---------------------------------------------------------------
+--------------------------------------------------------------*/
 
-desktop navigation
+/*desktop navigation*/
 
 .navbar {
     padding: 0;
@@ -438,12 +438,8 @@ desktop navigation
 }
 
 #hero h1 {
-    margin: 0;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 72px;
-    color: var(--Stormcloud);
-    font-family: "Poppins", sans-serif;
+    font-size: x-large;
+    color: black;
 }
 
 #hero h2 {

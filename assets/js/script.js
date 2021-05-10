@@ -1,4 +1,4 @@
-let weather = {
+let weatherArr = {
     "lat": 33.53,
     "lon": -112.18,
     "timezone": "America/Phoenix",
@@ -1725,31 +1725,40 @@ function frontPage(weather) {
     let main1 = document.getElementById("new");
     let today = document.createElement("div");
     let tz = document.createElement("h1");
-    tz.id = "TIMEZONE";
-    tz.textContent = weather.timezone;
+    tz.id = "header1";
+    tz.textContent = weatherArr.timezone;
     let main = document.createElement("h1");
-    main.id = "skies";
-    main.textContent = weather.current.weather.main;
+    main.id = "header1";
+    main.textContent = weatherArr.current.weather[0].description;
     let temp = document.createElement("h1");
-    temp.id = "temp";
-    temp.textContent = weather.current.temp;
+    temp.id = "header1";
+    temp.textContent = `Temperautre ${weatherArr.current.temp}`;
     let feels = document.createElement("h1");
-    feels.id = "feels";
-    feels.textContent = weather.current.feels_like;
+    feels.id = "header1";
+    feels.textContent = `Feels like ${weatherArr.current.feels_like}`;
     let windSpeed = document.createElement("h1");
-    windSpeed.id = "windSpeed";
-    windSpeed.textContent = weather.current.wind_speed;
+    windSpeed.id = "header1";
+    windSpeed.textContent = `Wind speed ${weatherArr.current.wind_speed}`;
     today.appendChild(tz);
     today.appendChild(main);
     today.appendChild(temp);
     today.appendChild(feels);
     today.appendChild(windSpeed);
     main1.appendChild(today);
-    console.log(tz);
-    console.log(main);
-    console.log(temp);
-    console.log(feels);
-    console.log(windSpeed);
-    console.log(today);
+    if(weatherArr.current.weather[0].description = "clear skies"){
+        main1.style.backgroundImage = url("")
+    }else{
+        main1.style.backgroundImage = ("");
+    }
 };
-frontPage(weather);
+frontPage(weatherArr);
+// const changingBackgrounds = () => {
+//     for(let i = 0; i < ; i++)
+//     if(weatherArr.weather[0].description = "clear skies"){
+//         main1.style.backgroundImage = url("")
+//     }else if (weatherArr.weather[0].description = "few clouds"){
+//         main1.style.backgroundImage = ("");
+//     }else{
+//         main1.style.backgroundImage = ("");
+//     }
+// }
