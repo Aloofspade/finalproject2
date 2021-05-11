@@ -184,6 +184,7 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 
+
 /*desktop navigation*/
 
 .navbar {
@@ -301,12 +302,7 @@ h6 {
     }
 }
 
-
-
-* Mobile Navigation 
-*/
-
-.mobile-nav-toggle {
+* Mobile Navigation */ .mobile-nav-toggle {
     color: var(--Stormcloud);
     font-size: 28px;
     cursor: pointer;
@@ -407,9 +403,9 @@ h6 {
 
 .navbar-mobile .dropdown>.dropdown-active {
     display: block;
-} */
+}
 
-
+*/
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -447,12 +443,12 @@ h6 {
     font-size: 22px;
 }
 
-#hero .button{
+#hero .button {
     background-color: white;
     height: 100px;
 }
 
-#hero .button .btn-get-started{
+#hero .button .btn-get-started {
     margin-top: 1.5%;
 }
 
@@ -1832,26 +1828,24 @@ section {
 }
 
 #footer .footer-top {
-    padding: 60px 0 30px 0;
     background: var(--Anti-Flash-White);
 }
 
 #Footer {
     margin-bottom: 0px;
     margin-left: 300px;
+    display: inline-block;
 }
 
 #footer .footer-top .footer-contact h3 {
     font-size: 26px;
     margin: 0 0 10px 0;
     padding: 2px 0 2px 0;
-    line-height: 1;
     font-weight: 300;
 }
 
 #footer .footer-top .footer-contact p {
     font-size: 14px;
-    line-height: 24px;
     margin-bottom: 0;
     font-family: "Raleway", sans-serif;
     color: #777777;
