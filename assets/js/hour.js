@@ -1694,73 +1694,13 @@ let weatherArr = {
     ]
 }
 
-// "lat": 33.53,
-// "lon": -112.18,
-// "timezone": "America/Phoenix",
-// "timezone_offset": -25200,
-// "current": {
-//     "dt": 1620014854,
-//     "sunrise": 1619959135,
-//     "sunset": 1620007935,
-//     "temp": 80.82,
-//     "feels_like": 78.91,
-//     "pressure": 1000,
-//     "humidity": 16,
-//     "dew_point": 30.67,
-//     "uvi": 0,
-//     "clouds": 1,
-//     "visibility": 10000,
-//     "wind_speed": 14.97,
-//     "wind_deg": 230,
-//     "weather": [
-//         {
-//             "id": 800,
-//             "main": "Clear",
-//             "description": "clear sky",
-//             "icon": "01n"
-//         }
-//     ]
-// }
+
+
 function frontPage(weather) {
-    let main1 = document.getElementById("new");
-    let today = document.createElement("div");
-    let tz = document.createElement("h1");
-    tz.id = "header1";
-    tz.textContent = weatherArr.timezone;
-    let main = document.createElement("h1");
-    main.id = "bolden";
-    let temp = document.createElement("h1");
-    temp.id = "header1";
-    temp.textContent = `${weatherArr.current.temp}°F`;
-    let feels = document.createElement("h1");
-    feels.id = "bolden";
-    feels.textContent = `Feels like ${weatherArr.current.feels_like}°F`;
-    let windSpeed = document.createElement("h1");
-    windSpeed.id = "bolden";
-    windSpeed.textContent = `Wind speed ${weatherArr.current.wind_speed}`;
-    if(weatherArr.current.weather[0].description = "clear skies"){
-        document.body.style.background = "url(assets/img/clear.jpg)";
-        document.body.style.backgroundSize = "100%"
-        document.body.style.backgroundRepeat = "url(no-repeat)";
-        main.textContent = "Clear Sky"
-    }else{
-        document.body.style.backgroundImage = "url(``)";
-    }
-    today.appendChild(tz);
-    today.appendChild(main);
-    today.appendChild(temp);
-    today.appendChild(feels);
-    today.appendChild(windSpeed);
-    main1.appendChild(today);
+    "use strict";
+    $("#accordian-item").append("<p>A New Paragraph</p>");
+    
 };
+
 frontPage(weatherArr);
-// const changingBackgrounds = () => {
-//     for(let i = 0; i < ; i++)
-//     if(weatherArr.weather[0].description = "clear skies"){
-//         main1.style.backgroundImage = url("")
-//     }else if (weatherArr.weather[0].description = "few clouds"){
-//         main1.style.backgroundImage = ("");
-//     }else{
-//         main1.style.backgroundImage = ("");
-//     }
-// }
+
