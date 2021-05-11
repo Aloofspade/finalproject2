@@ -1728,29 +1728,30 @@ function frontPage(weather) {
     tz.id = "header1";
     tz.textContent = weatherArr.timezone;
     let main = document.createElement("h1");
-    main.id = "header1";
-    main.textContent = weatherArr.current.weather[0].description;
+    main.id = "bolden";
     let temp = document.createElement("h1");
     temp.id = "header1";
-    temp.textContent = `Temperautre ${weatherArr.current.temp}`;
+    temp.textContent = `${weatherArr.current.temp}°F`;
     let feels = document.createElement("h1");
-    feels.id = "header1";
-    feels.textContent = `Feels like ${weatherArr.current.feels_like}`;
+    feels.id = "bolden";
+    feels.textContent = `Feels like ${weatherArr.current.feels_like}°F`;
     let windSpeed = document.createElement("h1");
-    windSpeed.id = "header1";
+    windSpeed.id = "bolden";
     windSpeed.textContent = `Wind speed ${weatherArr.current.wind_speed}`;
+    if(weatherArr.current.weather[0].description = "clear skies"){
+        document.body.style.background = "url(assets/img/clear.jpg)";
+        document.body.style.backgroundSize = "100%"
+        document.body.style.backgroundRepeat = "url(no-repeat)";
+        main.textContent = "Clear Sky"
+    }else{
+        document.body.style.backgroundImage = "url(``)";
+    }
     today.appendChild(tz);
     today.appendChild(main);
     today.appendChild(temp);
     today.appendChild(feels);
     today.appendChild(windSpeed);
     main1.appendChild(today);
-    if(weatherArr.current.weather[0].description = "clear skies"){
-        document.body.style.background = "url(assets/img/clear.jpg)";
-        document.body.style.backgroundSize = "cover"
-    }else{
-        document.body.style.backgroundImage = "url(``)";
-    }
 };
 frontPage(weatherArr);
 // const changingBackgrounds = () => {
