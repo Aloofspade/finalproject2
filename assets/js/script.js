@@ -1746,9 +1746,10 @@ function frontPage(weather) {
     today.appendChild(windSpeed);
     main1.appendChild(today);
     if(weatherArr.current.weather[0].description = "clear skies"){
-        main1.style.backgroundImage = url("")
+        document.body.style.background = "url(assets/img/clear.jpg)";
+        document.body.style.backgroundSize = "cover"
     }else{
-        main1.style.backgroundImage = ("");
+        document.body.style.backgroundImage = "url(``)";
     }
 };
 frontPage(weatherArr);
