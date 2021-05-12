@@ -157,17 +157,27 @@ h6 {
 }
 
 #Weather-Box {
-    background-color: var(--Anti-Flash-White);
-    width: fit-content;
+    background-color: white;
+    width: 45%;
+    height: 37vh;
+    margin-top: -10%;
     text-align: center;
     margin-left: 400px;
     border: var(--Stormcloud) 5px solid;
     border-radius: 10px;
 }
+#Weather-Box:hover{
+    height: 40vh;
+}
 
-#header1 {
-    margin-right: 20px;
-    text-align: center;
+#Weather-Box #header1{
+    margin-right: 14%;
+}
+#Weather-Box .topWord{
+    margin-top: -27px;
+}
+#Weather-Box #bolden{
+    margin-right: 14%;
 }
 
 #header .logo {
@@ -507,7 +517,7 @@ h6 {
     transition: 0.5s;
     margin-top: 30px;
     color: black;
-    background: #c9e3e5ef;
+    background: white;
     border: 2px black solid;
 }
 
