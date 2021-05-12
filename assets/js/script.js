@@ -1609,6 +1609,7 @@ function frontPage(weather) {
     let today = document.createElement("div");
     let tz = document.createElement("h1");
     tz.id = "header1";
+    tz.className = "topWord";
     tz.textContent = weatherArr.timezone;
     let main = document.createElement("h1");
     main.id = "bolden";
