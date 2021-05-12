@@ -459,8 +459,8 @@ h6 {
 }
 
 #hero .container {
-    padding-top: 80px;
-    height: 65vh;
+    padding-top: 20px;
+    height: 20vh;
     display: inline-flex;
 }
 
@@ -485,11 +485,6 @@ h6 {
     color: black;
     margin-left: 15%;
     font-family: sans-serif;
-}
-
-#hero h1:hover {
-    color: black;
-    font-weight: 1000;
 }
 
 #hero h2 {
@@ -527,11 +522,6 @@ h6 {
     color: black;
     background: white;
     border: 2px black solid;
-}
-
-.btn-get-started:hover {
-    font-weight: bolder;
-    color: black;
 }
 
 .icon-boxes {
@@ -1887,12 +1877,7 @@ section {
 }
 
 #footer .footer-top {
-    padding: 60px 0 30px 0;
-    background: var(--Anti-Flash-White);
-}
-
-#footer .footer-top {
-    padding: 60px 0 30px 0;
+    padding: 10px 0 30px 0;
     background: var(--Anti-Flash-White);
 }
 

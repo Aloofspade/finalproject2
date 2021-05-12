@@ -1698,39 +1698,28 @@ let weatherArr = {
 
 function hourlyPage(weatherArr) {
     "use strict";
+    // let accordContainer = document.getElementById("accordianFlushExample");
+    // let accordItem = document.createElement("div");
+    // accordItem.class = "accordian-item";
+    // let accordTitle = document.createElement("h2");
+    // accordTitle.class = accordian-header;
+    // accordTitle.id = "flush-headingSix";
+    // let accordSection = document.createElement("button");
+    // accordSection.class = "accordian-button_collapsed"; 
+    // let accordCollapse = document.createElement("div");
+    // accordCollapse.class = "accordian-collapse_collapse";
+    // accordCollapse.id = "flush-collapseSix";
+    // let accordBody = document.createElement("div");
+    // accordBody.class = "accordian-accordBody";
+    // accordBody.textContent = `Wind speed: ${weatherArr.hourly.wind_speed}, `
+    // today.appendChild(accordContainer);
+    // today.appendChild(accordItem);
+    // today.appendChild(accordTitle);
+    // today.appendChild(accordSection);
+    // today.appendChild(accordCollapse);
+    // today.appendChild(accordBody);
 
-    let temp = 0;
-    let feels = 0;
-    let pressure = 0;
-    let humidity = 0;
-    let dewPoint = 0;
-    let uvi = 0;
-    let clouds = 0;
-    let visibility = 0;
-    let windSpeed = 0;
-    let windDeg = 0;
-    let just = 0;
-
-    let accordContainer = document.getElementById("accordianFlushExample");
-
-    let accordItem = document.createElement("div");
-    accordItem.class = accordian-item;
-    let accordTitle = document.createElement("h2");
-    accordTitle.class = accordian-header;
-    accordTitle.id = flush-headingSix
-    let accordSection = document.createElement("button");
-    accordSection.class = accordian-button_collapsed 
-    let accordCollapse = document.createElement("div");
-    accordCollapse.class = accordian-collapse_collapse;
-    accordCollapse.id = flush-collapseSix;
-    let accordBody = document.createElement("div");
-    accordBody.class = accordian-accordBody;
-
-    today.appendChild(accordItem);
-    today.appendChild(accordTitle);
-    today.appendChild(accordSection);
-    today.appendChild(accordCollapse);
-    today.appendChild(accordBody);
+    
 };
 
 //    <div class="accordion-item">
