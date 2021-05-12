@@ -1696,11 +1696,87 @@ let weatherArr = {
 
 
 
-function frontPage(weather) {
+function hourlyPage(weatherArr) {
     "use strict";
-    $("#accordian-item").append("<p>A New Paragraph</p>");
-    
+
+    let temp = 0;
+    let feels = 0;
+    let pressure = 0;
+    let humidity = 0;
+    let dewPoint = 0;
+    let uvi = 0;
+    let clouds = 0;
+    let visibility = 0;
+    let windSpeed = 0;
+    let windDeg = 0;
+    let just = 0;
+
+    let accordContainer = document.getElementById("accordianFlushExample");
+
+    let accordItem = document.createElement("div");
+    accordItem.class = accordian-item;
+    let accordTitle = document.createElement("h2");
+    accordTitle.class = accordian-header;
+    accordTitle.id = flush-headingSix
+    let accordSection = document.createElement("button");
+    accordSection.class = accordian-button_collapsed 
+    let accordCollapse = document.createElement("div");
+    accordCollapse.class = accordian-collapse_collapse;
+    accordCollapse.id = flush-collapseSix;
+    let accordBody = document.createElement("div");
+    accordBody.class = accordian-accordBody;
+
+    today.appendChild(accordItem);
+    today.appendChild(accordTitle);
+    today.appendChild(accordSection);
+    today.appendChild(accordCollapse);
+    today.appendChild(accordBody);
 };
 
-frontPage(weatherArr);
+//    <div class="accordion-item">
+//        <h2 class="accordion-header" id="flush-headingSix">
+//            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+//                Accordion Item #6
+//           </button>
+//        </h2>
+//        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+//            <div class="accordion-body"> || </div>
+//        </div>
+//    </div> 
+
+// let main1 = document.getElementById("new");
+//     let today = document.createElement("div");
+//     let tz = document.createElement("h1");
+//     tz.id = "header1";
+//     tz.textContent = weatherArr.timezone;
+//     let main = document.createElement("h1");
+//     main.id = "bolden";
+//     let temp = document.createElement("h1");
+//     temp.id = "header1";
+//     temp.textContent = `${weatherArr.current.temp}°F`;
+//     let feels = document.createElement("h1");
+//     feels.id = "bolden";
+//     feels.textContent = `Feels like ${weatherArr.current.feels_like}°F`;
+//     let windSpeed = document.createElement("h1");
+//     windSpeed.id = "bolden";
+//     windSpeed.textContent = `Wind speed ${weatherArr.current.wind_speed}`;
+//     if(weatherArr.current.weather[0].description = "clear skies"){
+//         document.body.style.background = "url(assets/img/clear.jpg)";
+//         document.body.style.backgroundSize = "100%"
+//         document.body.style.backgroundRepeat = "url(no-repeat)";
+//         main.textContent = "Clear Sky"
+//     }else{
+//         document.body.style.backgroundImage = "url(``)";
+//     }
+//     today.appendChild(tz);
+//     today.appendChild(main);
+//     today.appendChild(temp);
+//     today.appendChild(feels);
+//     today.appendChild(windSpeed);
+//     main1.appendChild(today);
+
+
+
+
+hourlyPage(weatherArr);
 
