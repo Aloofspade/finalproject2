@@ -156,6 +156,40 @@ h6 {
     box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
 }
 
+#Weather-Box {
+    background-color: white;
+    width: 45%;
+    height: 37vh;
+    margin-top: -10%;
+    text-align: center;
+    margin-left: 400px;
+    border: var(--Stormcloud) 5px solid;
+    border-radius: 10px;
+}
+#Weather-Box:hover{
+    height: 40vh;
+}
+
+<<<<<<< HEAD
+#Contact {
+    text-align: right;
+}
+
+#header1 {
+    margin-right: 20px;
+    text-align: center;
+=======
+#Weather-Box #header1{
+    margin-right: 14%;
+}
+#Weather-Box .topWord{
+    margin-top: -27px;
+}
+#Weather-Box #bolden{
+    margin-right: 14%;
+>>>>>>> 7a58a524eee07d54ec46e833e8f409a2ed39c647
+}
+
 #header .logo {
     font-size: 38px;
     margin-left: 40%;
@@ -183,6 +217,7 @@ h6 {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+
 
 /*desktop navigation*/
 
@@ -301,12 +336,7 @@ h6 {
     }
 }
 
-
-
-* Mobile Navigation 
-*/
-
-.mobile-nav-toggle {
+* Mobile Navigation */ .mobile-nav-toggle {
     color: var(--Stormcloud);
     font-size: 28px;
     cursor: pointer;
@@ -407,9 +437,9 @@ h6 {
 
 .navbar-mobile .dropdown>.dropdown-active {
     display: block;
-} */
+}
 
-
+*/
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -435,18 +465,19 @@ h6 {
     height: 65vh;
     display: inline-flex;
 }
-#hero .container #new{
+
+#hero .container #new {
     margin-top: 9.5%;
 }
 
-#hero .container #new #bolden{
+#hero .container #new #bolden {
     font-size: x-large;
     color: black;
     font-weight: 500;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#hero .container #new #bolden:hover{
+#hero .container #new #bolden:hover {
     font-weight: 1000;
     color: black;
 }
@@ -457,7 +488,8 @@ h6 {
     margin-left: 15%;
     font-family: sans-serif;
 }
-#hero h1:hover{
+
+#hero h1:hover {
     color: black;
     font-weight: 1000;
 }
@@ -473,13 +505,13 @@ h6 {
     margin-top: 20%;
 }
 
-.button{
+.button {
     background-color: white;
     height: 100px;
     padding-bottom: -10000px;
 }
 
-.button .btn-get-started{
+.button .btn-get-started {
     position: relative;
     bottom: 0;
 }
@@ -495,7 +527,7 @@ h6 {
     transition: 0.5s;
     margin-top: 30px;
     color: black;
-    background: #c9e3e5ef;
+    background: white;
     border: 2px black solid;
 }
 

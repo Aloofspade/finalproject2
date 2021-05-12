@@ -17,17 +17,14 @@ let weatherArr = {
         "visibility": 10000,
         "wind_speed": 14.97,
         "wind_deg": 230,
-        "weather": [
-            {
-                "id": 800,
-                "main": "Clear",
-                "description": "clear sky",
-                "icon": "01n"
-            }
-        ]
+        "weather": [{
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+        }]
     },
-    "minutely": [
-        {
+    "minutely": [{
             "dt": 1620014880,
             "precipitation": 0
         },
@@ -272,8 +269,7 @@ let weatherArr = {
             "precipitation": 0
         }
     ],
-    "hourly": [
-        {
+    "hourly": [{
             "dt": 1620014400,
             "temp": 80.82,
             "feels_like": 78.91,
@@ -286,14 +282,12 @@ let weatherArr = {
             "wind_speed": 17.05,
             "wind_deg": 220,
             "wind_gust": 26.87,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }],
             "pop": 0
         },
         {
@@ -309,14 +303,12 @@ let weatherArr = {
             "wind_speed": 21.3,
             "wind_deg": 214,
             "wind_gust": 32.97,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }],
             "pop": 0
         },
         {
@@ -332,14 +324,12 @@ let weatherArr = {
             "wind_speed": 22.5,
             "wind_deg": 222,
             "wind_gust": 34.05,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }],
             "pop": 0
         },
         {
@@ -355,14 +345,12 @@ let weatherArr = {
             "wind_speed": 19.91,
             "wind_deg": 225,
             "wind_gust": 31.59,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }],
             "pop": 0
         },
         {
@@ -378,14 +366,12 @@ let weatherArr = {
             "wind_speed": 13.71,
             "wind_deg": 226,
             "wind_gust": 25.48,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }],
             "pop": 0
         },
         {
@@ -401,14 +387,12 @@ let weatherArr = {
             "wind_speed": 8.05,
             "wind_deg": 202,
             "wind_gust": 15.3,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }],
             "pop": 0
         },
         {
@@ -424,14 +408,12 @@ let weatherArr = {
             "wind_speed": 7.67,
             "wind_deg": 195,
             "wind_gust": 12.01,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }],
             "pop": 0
         },
         {
@@ -447,14 +429,12 @@ let weatherArr = {
             "wind_speed": 7.85,
             "wind_deg": 204,
             "wind_gust": 11.65,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }],
             "pop": 0
         },
         {
@@ -470,14 +450,12 @@ let weatherArr = {
             "wind_speed": 6.22,
             "wind_deg": 214,
             "wind_gust": 11.01,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }],
             "pop": 0
         },
         {
@@ -493,14 +471,12 @@ let weatherArr = {
             "wind_speed": 6.38,
             "wind_deg": 203,
             "wind_gust": 10.85,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -516,14 +492,12 @@ let weatherArr = {
             "wind_speed": 5.66,
             "wind_deg": 208,
             "wind_gust": 9.17,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -539,14 +513,12 @@ let weatherArr = {
             "wind_speed": 3.76,
             "wind_deg": 225,
             "wind_gust": 6.6,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -562,14 +534,12 @@ let weatherArr = {
             "wind_speed": 4.14,
             "wind_deg": 203,
             "wind_gust": 6.26,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -585,14 +555,12 @@ let weatherArr = {
             "wind_speed": 4.7,
             "wind_deg": 210,
             "wind_gust": 5.79,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -608,14 +576,12 @@ let weatherArr = {
             "wind_speed": 4.56,
             "wind_deg": 237,
             "wind_gust": 5.57,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -631,14 +597,12 @@ let weatherArr = {
             "wind_speed": 3.36,
             "wind_deg": 286,
             "wind_gust": 4.97,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -654,14 +618,12 @@ let weatherArr = {
             "wind_speed": 4.47,
             "wind_deg": 313,
             "wind_gust": 7.56,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -677,14 +639,12 @@ let weatherArr = {
             "wind_speed": 4.38,
             "wind_deg": 322,
             "wind_gust": 9.13,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -700,14 +660,12 @@ let weatherArr = {
             "wind_speed": 2.66,
             "wind_deg": 306,
             "wind_gust": 10.54,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -723,14 +681,12 @@ let weatherArr = {
             "wind_speed": 3.74,
             "wind_deg": 207,
             "wind_gust": 11.65,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -746,14 +702,12 @@ let weatherArr = {
             "wind_speed": 6.73,
             "wind_deg": 212,
             "wind_gust": 11.99,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -769,14 +723,12 @@ let weatherArr = {
             "wind_speed": 8.03,
             "wind_deg": 245,
             "wind_gust": 11.14,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -792,14 +744,12 @@ let weatherArr = {
             "wind_speed": 9.53,
             "wind_deg": 259,
             "wind_gust": 11.63,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -815,14 +765,12 @@ let weatherArr = {
             "wind_speed": 8.16,
             "wind_deg": 250,
             "wind_gust": 12.1,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }],
             "pop": 0
         },
         {
@@ -838,14 +786,12 @@ let weatherArr = {
             "wind_speed": 6.02,
             "wind_deg": 250,
             "wind_gust": 10.96,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }],
             "pop": 0
         },
         {
@@ -861,14 +807,12 @@ let weatherArr = {
             "wind_speed": 5.37,
             "wind_deg": 241,
             "wind_gust": 10.38,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }],
             "pop": 0
         },
         {
@@ -884,14 +828,12 @@ let weatherArr = {
             "wind_speed": 6.33,
             "wind_deg": 215,
             "wind_gust": 9.48,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }],
             "pop": 0
         },
         {
@@ -907,14 +849,12 @@ let weatherArr = {
             "wind_speed": 6.29,
             "wind_deg": 215,
             "wind_gust": 8.9,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }],
             "pop": 0
         },
         {
@@ -930,14 +870,12 @@ let weatherArr = {
             "wind_speed": 6.67,
             "wind_deg": 216,
             "wind_gust": 10.49,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }],
             "pop": 0
         },
         {
@@ -953,14 +891,12 @@ let weatherArr = {
             "wind_speed": 5.06,
             "wind_deg": 217,
             "wind_gust": 9.22,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }],
             "pop": 0
         },
         {
@@ -976,14 +912,12 @@ let weatherArr = {
             "wind_speed": 3.44,
             "wind_deg": 216,
             "wind_gust": 6.76,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }],
             "pop": 0
         },
         {
@@ -999,14 +933,12 @@ let weatherArr = {
             "wind_speed": 2.26,
             "wind_deg": 195,
             "wind_gust": 5.08,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }],
             "pop": 0
         },
         {
@@ -1022,14 +954,12 @@ let weatherArr = {
             "wind_speed": 2.44,
             "wind_deg": 142,
             "wind_gust": 4.76,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01n"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }],
             "pop": 0
         },
         {
@@ -1045,14 +975,12 @@ let weatherArr = {
             "wind_speed": 3.4,
             "wind_deg": 145,
             "wind_gust": 5.84,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -1068,14 +996,12 @@ let weatherArr = {
             "wind_speed": 3.53,
             "wind_deg": 136,
             "wind_gust": 5.23,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -1091,14 +1017,12 @@ let weatherArr = {
             "wind_speed": 4.14,
             "wind_deg": 120,
             "wind_gust": 5.19,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -1114,14 +1038,12 @@ let weatherArr = {
             "wind_speed": 4.56,
             "wind_deg": 125,
             "wind_gust": 4.9,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -1137,14 +1059,12 @@ let weatherArr = {
             "wind_speed": 4.29,
             "wind_deg": 144,
             "wind_gust": 4.88,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -1160,14 +1080,12 @@ let weatherArr = {
             "wind_speed": 3.49,
             "wind_deg": 176,
             "wind_gust": 5.64,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -1183,14 +1101,12 @@ let weatherArr = {
             "wind_speed": 3.96,
             "wind_deg": 208,
             "wind_gust": 7.72,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -1206,14 +1122,12 @@ let weatherArr = {
             "wind_speed": 4.99,
             "wind_deg": 230,
             "wind_gust": 8.43,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -1229,14 +1143,12 @@ let weatherArr = {
             "wind_speed": 5.99,
             "wind_deg": 244,
             "wind_gust": 8.43,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -1252,14 +1164,12 @@ let weatherArr = {
             "wind_speed": 6.89,
             "wind_deg": 248,
             "wind_gust": 8.5,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -1275,14 +1185,12 @@ let weatherArr = {
             "wind_speed": 7.16,
             "wind_deg": 251,
             "wind_gust": 8.48,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -1298,14 +1206,12 @@ let weatherArr = {
             "wind_speed": 7.16,
             "wind_deg": 250,
             "wind_gust": 7.78,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -1321,14 +1227,12 @@ let weatherArr = {
             "wind_speed": 8.21,
             "wind_deg": 247,
             "wind_gust": 7.85,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -1344,14 +1248,12 @@ let weatherArr = {
             "wind_speed": 8.86,
             "wind_deg": 242,
             "wind_gust": 8.05,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "pop": 0
         },
         {
@@ -1367,19 +1269,16 @@ let weatherArr = {
             "wind_speed": 7.78,
             "wind_deg": 235,
             "wind_gust": 9.15,
-            "weather": [
-                {
-                    "id": 801,
-                    "main": "Clouds",
-                    "description": "few clouds",
-                    "icon": "02n"
-                }
-            ],
+            "weather": [{
+                "id": 801,
+                "main": "Clouds",
+                "description": "few clouds",
+                "icon": "02n"
+            }],
             "pop": 0
         }
     ],
-    "daily": [
-        {
+    "daily": [{
             "dt": 1619982000,
             "sunrise": 1619959135,
             "sunset": 1620007935,
@@ -1406,14 +1305,12 @@ let weatherArr = {
             "wind_speed": 22.5,
             "wind_deg": 222,
             "wind_gust": 34.05,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "clouds": 0,
             "pop": 0,
             "uvi": 9.36
@@ -1445,14 +1342,12 @@ let weatherArr = {
             "wind_speed": 19.91,
             "wind_deg": 225,
             "wind_gust": 31.59,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "clouds": 0,
             "pop": 0,
             "uvi": 9.13
@@ -1484,14 +1379,12 @@ let weatherArr = {
             "wind_speed": 10.09,
             "wind_deg": 267,
             "wind_gust": 18.81,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "clouds": 5,
             "pop": 0,
             "uvi": 9.99
@@ -1523,14 +1416,12 @@ let weatherArr = {
             "wind_speed": 6.91,
             "wind_deg": 278,
             "wind_gust": 13.38,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "clouds": 1,
             "pop": 0,
             "uvi": 9.86
@@ -1562,14 +1453,12 @@ let weatherArr = {
             "wind_speed": 12.8,
             "wind_deg": 250,
             "wind_gust": 20.36,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "clouds": 1,
             "pop": 0,
             "uvi": 9.78
@@ -1601,14 +1490,12 @@ let weatherArr = {
             "wind_speed": 17.09,
             "wind_deg": 229,
             "wind_gust": 22.32,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "clouds": 1,
             "pop": 0,
             "uvi": 10
@@ -1640,14 +1527,12 @@ let weatherArr = {
             "wind_speed": 19.73,
             "wind_deg": 222,
             "wind_gust": 24.16,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "clouds": 0,
             "pop": 0,
             "uvi": 10
@@ -1679,14 +1564,12 @@ let weatherArr = {
             "wind_speed": 20.87,
             "wind_deg": 204,
             "wind_gust": 24.65,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ],
+            "weather": [{
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }],
             "clouds": 0,
             "pop": 0,
             "uvi": 10
@@ -1726,9 +1609,12 @@ function frontPage(weather) {
     let today = document.createElement("div");
     let tz = document.createElement("h1");
     tz.id = "header1";
+    tz.className = "topWord";
     tz.textContent = weatherArr.timezone;
     let main = document.createElement("h1");
     main.id = "bolden";
+    today.id = "Weather-Box";
+    today.className = "icon-box";
     let temp = document.createElement("h1");
     temp.id = "header1";
     temp.textContent = `${weatherArr.current.temp}°F`;
@@ -1738,12 +1624,12 @@ function frontPage(weather) {
     let windSpeed = document.createElement("h1");
     windSpeed.id = "bolden";
     windSpeed.textContent = `Wind speed ${weatherArr.current.wind_speed}`;
-    if(weatherArr.current.weather[0].description = "clear skies"){
+    if (weatherArr.current.weather[0].description = "clear skies") {
         document.body.style.background = "url(assets/img/clear.jpg)";
         document.body.style.backgroundSize = "100%"
         document.body.style.backgroundRepeat = "url(no-repeat)";
         main.textContent = "Clear Sky"
-    }else{
+    } else {
         document.body.style.backgroundImage = "url(``)";
     }
     today.appendChild(tz);
