@@ -40,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 
@@ -186,7 +186,6 @@ h6 {
 }
 #Weather-Box #bolden{
     margin-right: 14%;
-    font-weight: bold;
 }
 
 #header .logo {
@@ -212,30 +211,6 @@ h6 {
     }
 }
 
-img {
-  float: left;
-
-  padding: auto;
-  margin: auto;
-}
-
-@media screen and (min-width: 1068px){
-.logo{
-  position: absolute;
-}
-.icon{
-position: relative;
-right: 250px;
-}
-}
-@media screen and (max-width: 968px) {
-  h1 {
-    position: relative;
-    right: 120px;
-    padding: auto;
-    margin: auto;
-  }
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -279,8 +254,8 @@ right: 250px;
 
 .navbar a:hover,
 .navbar .active,
-.navbar li:hover > a {
-  color: #2487ce;
+.navbar li:hover>a {
+    color: var(--Vivid-Cerulean);
 }
 
 .navbar .getstarted {
@@ -327,8 +302,8 @@ right: 250px;
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
-  color: #2487ce;
+.navbar .dropdown ul li:hover>a {
+    color: var(--Vivid-Cerulean);
 }
 
 .navbar .dropdown:hover>ul {
@@ -420,8 +395,8 @@ right: 250px;
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover > a {
-  color: #2487ce;
+.navbar-mobile li:hover>a {
+    color: var(--Vivid-Cerulean);
 }
 
 .navbar-mobile .getstarted {
@@ -454,8 +429,8 @@ right: 250px;
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
-  color: #2487ce;
+.navbar-mobile .dropdown ul li:hover>a {
+    color: var(--Vivid-Cerulean);
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -484,8 +459,8 @@ right: 250px;
 }
 
 #hero .container {
-    padding-top: 80px;
-    height: 65vh;
+    padding-top: 20px;
+    height: 20vh;
     display: inline-flex;
 }
 
@@ -510,11 +485,6 @@ right: 250px;
     color: black;
     margin-left: 15%;
     font-family: sans-serif;
-}
-
-#hero h1:hover {
-    color: black;
-    font-weight: 1000;
 }
 
 #hero h2 {
@@ -551,25 +521,7 @@ right: 250px;
     margin-top: 30px;
     color: black;
     background: white;
-    border: 3px black solid;
-    box-shadow: 3px 3px 3px rgb(0, 0, 0);
-}
-
-.btn-get-started:hover {
     border: 2px black solid;
-    box-shadow: none;
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    letter-spacing: 0.5px;
-    display: inline-block;
-    padding: 14px 50px;
-    border-radius: 50px;
-    transition: 0.5s;
-    margin-top: 30px;
-    color: black;
-    background: white;
-    border: 3px black solid;
-    box-shadow: none;
 }
 
 .icon-boxes {
@@ -824,41 +776,41 @@ section {
 }
 
 .about-video .play-btn::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-40%) translateY(-50%);
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
-  z-index: 100;
-  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid var(--Anti-Flash-White);
+    z-index: 100;
+    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .about-video .play-btn::before {
-  content: "";
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-  -webkit-animation: pulsate-btn 2s;
-  animation: pulsate-btn 2s;
-  -webkit-animation-direction: forwards;
-  animation-direction: forwards;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-timing-function: steps;
-  animation-timing-function: steps;
-  opacity: 1;
-  border-radius: 50%;
-  border: 5px solid rgba(36, 135, 206, 0.7);
-  top: -15%;
-  left: -15%;
-  background: rgba(198, 16, 0, 0);
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation: pulsate-btn 2s;
+    animation: pulsate-btn 2s;
+    -webkit-animation-direction: forwards;
+    animation-direction: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: steps;
+    animation-timing-function: steps;
+    opacity: 1;
+    border-radius: 50%;
+    border: 5px solid rgba(36, 135, 206, 0.7);
+    top: -15%;
+    left: -15%;
+    background: rgba(198, 16, 0, 0);
 }
 
 .about-video .play-btn:hover::after {
@@ -867,21 +819,21 @@ section {
 }
 
 .about-video .play-btn:hover::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-40%) translateY(-50%);
-  width: 0;
-  height: 0;
-  border: none;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
-  z-index: 200;
-  -webkit-animation: none;
-  animation: none;
-  border-radius: 0;
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border: none;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid var(--Anti-Flash-White);
+    z-index: 200;
+    -webkit-animation: none;
+    animation: none;
+    border-radius: 0;
 }
 
 @-webkit-keyframes pulsate-btn {
@@ -967,8 +919,8 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #c9e3f5;
-  font-size: 26px;
+    color: #c9e3f5;
+    font-size: 26px;
 }
 
 .testimonials .testimonial-item .quote-icon-left {
@@ -1231,7 +1183,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #2487ce;
+    color: var(--Vivid-Cerulean);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1597,7 +1549,7 @@ section {
 .pricing .featured h4 span,
 .pricing .featured ul,
 .pricing .featured ul .na {
-  color: #fff;
+    color: var(--Anti-Flash-White);
 }
 
 .pricing .featured .btn-wrap {
@@ -1662,10 +1614,10 @@ section {
 
 .faq .faq-list .icon-show,
 .faq .faq-list .icon-close {
-  font-size: 24px;
-  position: absolute;
-  right: 0;
-  top: 0;
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .faq .faq-list p {
@@ -1744,14 +1696,14 @@ section {
 
 .contact .info .email,
 .contact .info .phone {
-  margin-top: 40px;
+    margin-top: 40px;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #2487ce;
-  color: #fff;
+    background: var(--Vivid-Cerulean);
+    color: var(--Anti-Flash-White);
 }
 
 .contact .php-email-form {
@@ -1807,15 +1759,15 @@ section {
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  border-radius: 4px;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    border-radius: 4px;
 }
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #2487ce;
+    border-color: var(--Vivid-Cerulean);
 }
 
 .contact .php-email-form input {
@@ -1925,12 +1877,7 @@ section {
 }
 
 #footer .footer-top {
-    padding: 60px 0 30px 0;
-    background: var(--Anti-Flash-White);
-}
-
-#footer .footer-top {
-    padding: 60px 0 30px 0;
+    padding: 10px 0 30px 0;
     background: var(--Anti-Flash-White);
 }
 
@@ -2072,9 +2019,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #3194db;
-  color: #fff;
-  text-decoration: none;
+    background: #3194db;
+    color: var(--Anti-Flash-White);
+    text-decoration: none;
 }
-
-
