@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DailyWeather</title>
+
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <img class="icon" src="assets/img/icon.png" width="35" height="35" alt="logo">
+      <h1 class="logo"><a href="daily.html">Cloud Cover</a></h1>
+
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto o" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
+          <li><a class="nav-link scrollto" href="">Pricing</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+
+    </div>
+  </header>
+
+
+
+
+  <!--  Weather Daily -->
+  <div class="wrapper">
+    <div class="today">
+      <div id="city">Default, DE</div>
+      <div class="weatherInfo">
+        <div id="weatherIcon" data-icon=""></div>
+        <div id="forecast">Stormy & Rainy</div>
+      </div>
+      <div class="temperature-wrapper">
+        <div id="temperature">
+          <div class="temp">100</div>
+          <div id="metrics" data-icon=""></div>
+        </div>
+      </div>
+    </div>
+    <div class="daily">
+      <div class="low-high">
+        <div class="low">
+          <div id="low">12</div><span>Low</span>
+        </div>
+        <div class="temperature-range"></div>
+        <div class="high">
+          <div id="high">22</div><span>High</span>
+        </div>
+      </div>
+      <div class="currently">
+        <div class="icon-wrapper">
+          <div>
+            <div class="wind" data-icon=""></div>
+            <div class="metric-text">Wind</div>
+          </div>
+          <div class="metric-text" id="wind-text"></div>
+        </div>
+        <div class="icon-wrapper">
+          <div>
+            <div class="rain" data-icon=""></div>
+            <div class="metric-text">Rain</div>
+          </div>
+          <div class="metric-text" id="rain-text"> </div>
+        </div>
+        <div class="icon-wrapper">
+          <div>
+            <div class="humi" data-icon=""></div>
+            <div class="metric-text">Humidity</div>
+          </div>
+          <div class="metric-text" id="humi-text"></div>
+        </div>
+      </div>
+    </div>
+
+   <a href="index.html">
+    <div class="week">
+      <div class="day">
+        <div class="day-desc">Mon</div>
+        <div class="day-icon" data-icon=""></div>
+        <div class="day-low-high">12°/15°</div>
+      </div>
+      <div class="day">
+        <div class="day-desc">Tue</div>
+        <div class="day-icon" data-icon=""></div>
+        <div class="day-low-high">12°/15°</div>
+      </div>
+      <div class="day">
+        <div class="day-desc"> Wed</div>
+        <div class="day-icon" data-icon=""></div>
+        <div class="day-low-high">12°/15°</div>
+      </div>
+      <div class="day">
+        <div class="day-desc">Thu</div>
+        <div class="day-icon" data-icon=""></div>
+        <div class="day-low-high">12°/15°</div>
+      </div>
+      <div class="day">
+        <div class="day-desc">Fri</div>
+        <div class="day-icon" data-icon=""></div>
+        <div class="day-low-high">12°/15°</div>
+      </div>
+      <div class="day">
+        <div class="day-desc">Sat</div>
+        <div class="day-icon" data-icon=""></div>
+        <div class="day-low-high">12°/15°</div>
+      </div>
+      <div class="day">
+        <div class="day-desc">Sun</div>
+        <div class="day-icon" data-icon=""></div>
+        <div class="day-low-high">12°/15°</div>
+      </div>
+    </div>
+  </a>
+
+  </div>
+  <!-- end Weather Daily -->
+
+  <!-- Daily Info -->
+
+<div id="infoDaily">
+<a class="">
+
+<section id="header"></section>
+<section id="data"></section>
+
+
+
+</a>
+  
+</div>
+  
+  <!-- info end -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- jquery for weather -->
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script>
+
+    $(document).ready(function () {
+      $('#metrics').on("click", toggleMetric);
+      init();
+    });
+
+    var apiKey = "fe042d917fd66529d9b71ebc231a32d8";
+    var metric = "si";
+    var days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    var icons = {
+      'clear-day': '\uf00d',
+      'clear-night': '\uf02e',
+      'wind': '\uf050',
+      'day-sunny': '\uf00d',
+      'night-clear': '\uf02e',
+      'rain': '\uf019',
+      'snow': '\uf076',
+      'sleet': '\uf0b5',
+      'strong-wind': '\uf050',
+      'fog': '\uf014',
+      'cloudy': '\uf013',
+      'day-cloudy': '\uf002',
+      'night-cloudy': '\uf086',
+      'hail': '\uf015',
+      'thunderstorm': '\uf01e',
+      'tornado': '\uf056',
+      'partly-cloudy-night': '\uf081',
+      'partly-cloudy-day': '\uf002',
+      'n/a': '\uf07b'
+    };
+
+    function init() {
+      getGeoPos();
+    }
+
+    function getGeoPos() {
+      $.getJSON('https://ipinfo.io', function (data) {
+        setLocation(data);
+        getWeather(data);
+      });
+    }
+
+    function getWeather(geo) {
+      console.log(geo)
+      $.ajax({
+        url: 'https://api.darksky.net/forecast/' + apiKey + '/' + geo.loc + '?units=' + metric,
+        data: { format: 'json' },
+        type: 'GET',
+        dataType: 'jsonp',
+        success: function (data) {
+          setWeather(data);
+        }
+      });
+    }
+
+    function setWeather(forecast) {
+      $('#forecast').text(forecast.currently.summary);
+      var icon = icons[forecast.currently.icon] || icons['n/a'];
+      $('#weatherIcon').attr('data-icon', icon);
+      $('#temperature>.temp').text(Math.ceil(forecast.currently.temperature));
+      var windMetric = metric === 'si' ? 'm/s' : 'mph';
+      $('#wind-text').text(Math.ceil(forecast.currently.windSpeed) + ' ' + windMetric);
+      $('#rain-text').text(forecast.currently.precipProbability);
+      var humidity = Math.round(forecast.currently.humidity * 100);
+      $('#humi-text').text(humidity + '%');
+      $('#low').text(Math.ceil(forecast.daily.data[0].apparentTemperatureMin));
+      $('#high').text(Math.ceil(forecast.daily.data[0].apparentTemperatureMax));
+      console.log(forecast);
+      var daily = getWeekdays(forecast.daily.data);
+      $('.day').each(function (i, day) {
+        $(day).find('.day-desc').text(daily[i].day);
+        var icon = icons[daily[i].icon] || icons['n/a'];
+        $(day).find('.day-icon').attr('data-icon', icon);
+        $(day).find('.day-low-high').text(daily[i].min + '°/' + daily[i].max + '°');
+      });
+    }
+
+    function getWeekdays(week) {
+      return week.map(function (day) {
+        var date = new Date(day.time * 1000);
+        return {
+          day: days[date.getDay()],
+          max: Math.ceil(day.apparentTemperatureMax),
+          min: Math.ceil(day.apparentTemperatureMin),
+          icon: day.icon
+        };
+      }).splice(1, week.length);
+    }
+
+    function setLocation(loc) {
+      if (loc.city) {
+        $('#city').text(loc.city + ', ' + loc.country);
+      }
+    };
+
+    function toggleMetric() {
+      metric = metric === 'si' ? 'us' : 'si';
+      var icon = metric === 'us' ? '\uf045' : '\uf03c';
+      $(this).attr('data-icon', icon);
+      init();
+    }
+  </script>
+  <!-- end jquery -->
+</body>
+
+</html>
