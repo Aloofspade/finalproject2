@@ -1628,7 +1628,7 @@ function frontPage(weather) {
         document.body.style.background = "url(assets/img/clear.jpg)";
         document.body.style.backgroundSize = "100%"
         document.body.style.backgroundRepeat = "url(no-repeat)";
-        main.textContent = "Clear Sky"
+        main.textContent = "☀Clear Sky"
     } else {
         document.body.style.backgroundImage = "url(``)";
     }

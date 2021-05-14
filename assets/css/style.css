@@ -178,6 +178,7 @@ h6 {
 }
 #Weather-Box #bolden{
     margin-right: 14%;
+    font-weight: bold;
 }
 
 #header .logo {
@@ -518,12 +519,25 @@ h6 {
     margin-top: 30px;
     color: black;
     background: white;
-    border: 2px black solid;
+    border: 3px black solid;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
 }
 
 .btn-get-started:hover {
-    font-weight: bolder;
+    border: 2px black solid;
+    box-shadow: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding: 14px 50px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
     color: black;
+    background: white;
+    border: 3px black solid;
+    box-shadow: none;
 }
 
 .icon-boxes {
