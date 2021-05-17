@@ -7,9 +7,9 @@
 }
 
 body {
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
+  overflow: scroll;
+  padding: 20px;
+  margin: auto;
   color: #fff;
   font-family: "Lato", sans-serif;
   font-style: normal;
@@ -17,8 +17,14 @@ body {
   font-size: 18px;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 25px;
+  }
+}
+
 .wrapper {
-  background-color: #0D9DE3;
+  background-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,7 +48,7 @@ body {
 }
 
 .wrapper .today #city {
-  color: black;
+  color: white;
   margin: 0.1rem;
 }
 
@@ -97,7 +103,7 @@ body {
 }
 
 .wrapper .today #temperature #metrics:hover {
-  color: #4E6969;
+  color: #4e6969;
 }
 
 .wrapper .today #temperature #metrics:after {
@@ -137,11 +143,11 @@ body {
 }
 
 .wrapper .daily .low-high .low #low {
-  color: #0700DB;
+  color: #0700db;
 }
 
 .wrapper .daily .low-high .high #high {
-  color: #00F5C7;
+  color: #00f5c7;
 }
 
 .wrapper .daily .low-high span {
@@ -166,7 +172,7 @@ body {
     color-stop(58%, #ce6fc0),
     to(#f95757)
   );
-  background: linear-gradient(to right, #0700DB 0%, #0056F5 10%, #006EDB 20%, #00A7F5 30%, #00E5F5 58%, #00F5C7 100%);
+  background: linear-gradient(to right, #0700db 0%, #0056f5 10%, #006edb 20%, #00a7f5 30%, #00e5f5 58%, #00f5c7 100%);
   border-radius: 20px;
 }
 
@@ -209,17 +215,17 @@ body {
 .wrapper .daily .currently .icon-wrapper .rain:after {
   font-family: "Weather-Icons";
   content: attr(data-icon);
-  color: #9931F5;
+  color: #9931f5;
 }
 
 .wrapper .daily .currently .icon-wrapper .humi:after {
   font-family: "Weather-Icons";
   content: attr(data-icon);
-  color: #AEDFF2;
+  color: #aedff2;
 }
 
 .wrapper .week {
-  color: #05DDF5;
+  color: #05ddf5;
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -270,9 +276,8 @@ body {
   color: white;
 }
 
-.day-icon{
+.day-icon {
   cursor: pointer;
-  
 }
 
 /*# sourceMappingURL=style.css.map */
