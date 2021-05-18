@@ -81,6 +81,16 @@ body {
   margin: 0.5rem 1rem;
 }
 
+@media only screen and (max-width: 600px) {
+  #forecast{
+    padding: 10px;
+  }
+  #city{
+    padding-top: 50px;
+  }
+}
+
+
 .wrapper .today .temperature-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
