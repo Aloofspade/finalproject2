@@ -1,28 +1,6 @@
-let daily = `{
-    CS102
-Session 2
-CAPSTONE PROJECT~~
-Kyle Peck
-•
-May 4
-500 points
-Due May 21
-please make sure that you are turning in everything! Most important things are the capstone and your individual portfolio.
+let climate = `{
 
-Final Project
-Google Docs
-
-weather.json
-Unknown File
-
-One Call API: weather data for any geographical coordinate - OpenWeatherMap
-https://openweathermap.org/api/one-call-api
-Your work
-Assigned
-Private comments
-Class comments
-CAPSTONE PROJECT~~ 
-{
+ "data" :{
   "lat": 33.53,
   "lon": -112.18,
   "timezone": "America/Phoenix",
@@ -1717,11 +1695,55 @@ CAPSTONE PROJECT~~
     }
   ]
 }
-weather.json
-Displaying CSS Flexbox.
+
 }`;
 
 
 
-let header = document.getElementById("header");
-let data = document.getElementById("")
+// let header = document.getElementById("header");
+// let data = document.getElementById("")
+
+
+// $('.nav-item').on("click", function () {
+//   var value = $(this).text();
+//   $('.title-header').html(value + " Weather Report");
+// });
+
+// function UpdateTheme() {
+//   var theme = "";
+//   var date = new Date();
+//   var hourOfDay = date.getHours();
+
+//   if (hourOfDay > 5 && hourOfDay < 10) {
+//     theme = "morning";
+//   } else if (hourOfDay > 9 && hourOfDay < 14) {
+//     theme = "day";
+//   } else if (hourOfDay > 13 && hourOfDay < 22) {
+//     theme = "afternoon";
+//   } else {
+//     theme = "night";
+//   }
+
+//   document.documentElement.setAttribute('data-theme', theme);
+// }
+
+// $(document).ready(function () {
+//   UpdateTheme();
+//   setInterval(function () { UpdateTheme(); }, 60000);
+// });
+
+
+let accordion = document.getElementsByClassName("accordion-body");
+let accordionObj = JSON.parse(climate);
+
+
+createData(accordionObj);
+
+function createData(accordionObj) {
+
+  const p1 = document.createElement("p");
+  p1.textContent = `${accordionObj["pressure"]}`
+  createData.appendChild(p1);
+
+}
+
