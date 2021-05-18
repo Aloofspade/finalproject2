@@ -190,7 +190,6 @@ h6 {
 
 #header .logo {
     font-size: 38px;
-    margin-left: 40%;
     line-height: 1;
     font-weight: 300;
     letter-spacing: 0.5px;
@@ -444,7 +443,6 @@ h6 {
 
 #hero {
     width: 100%;
-    position: relative;
     background-size: cover;
     position: relative;
 }
@@ -456,6 +454,13 @@ h6 {
     top: 0;
     left: 0;
     right: 0;
+}
+
+#hero img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 #hero .container {
@@ -2022,4 +2027,16 @@ section {
     background: #3194db;
     color: var(--Anti-Flash-White);
     text-decoration: none;
+}
+
+
+/* Styles fot the buttons for the widgets that display information */
+/* Doesnt work yet but it will eventually*/
+/* Need to figure out how to use the class name that updates and has a a spaze */
+/* Or figure out how to properly use the ID for the dropsdowns */
+
+#accordion-button{
+    width: 80%;
+    background-color: #00CCFF;
+    border-radius: 15px;
 }
