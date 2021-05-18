@@ -1,4 +1,17 @@
 # finalproject2
+
+
+# Abdi's Work
+## Day 1: 
+- I have finish the daily weather. With the current weather location. 
+## Day 2:
+- I have style the color and style of the code for daily. 
+## Day 3
+- I have to start the week location for the rest of the climate.
+## Day 9 
+- I have style the navbar. To fit with the rest of the page.
+
+
 Day 1:
 Group worked on SDLC and designed project
 Day 2:
