@@ -2030,27 +2030,34 @@ section {
 }
 
 
-/* Styles fot the buttons for the widgets that display information */
-/* Doesnt work yet but it will eventually*/
-/* Need to figure out how to use the class name that updates and has a a spaze */
-/* Or figure out how to properly use the ID for the dropsdowns */
-
-#accordion-button{
-    width: 80%;
-    background-color: #00CCFF;
-    border-radius: 15px;
-}
-
 /* --------------------------------------------------------------- */
 /* Hourly Widget */
 /* --------------------------------------------------------------- */
 
 #hour-widget {
     background-color: #00CCFF;
-    display: flex;
     border: #111 2px solid;
     border-radius: 5px;
     margin: auto;
-    width: 80%;
-    width: 70%;
+    /* width: 80%; */
+    /* width: 70%; */
+    position: relative;
+    display: inline-block;
 }
+
+
+
+#hour-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+#hour-widget:hover .hour-content {
+    display: block;
+    z-index: 2;
+}
+

@@ -1635,14 +1635,14 @@ function frontPage() {
     feels.id = "hour";
     humidity.id = "hour";
 
-    windSpeed.id = "hour";
-    windDeg.id = "hour";
-    windGust.id = "hour";
-    visibility.id = "hour";
-    clouds.id = "hour";
-    pressure.id = "hour";
-    dewPoint.id = "hour";
-    uvi.id = "hour";
+    windSpeed.id = "hour-content";
+    windDeg.id = "hour-content";
+    windGust.id = "hour-content";
+    visibility.id = "hour-content";
+    clouds.id = "hour-content";
+    pressure.id = "hour-content";
+    dewPoint.id = "hour-content";
+    uvi.id = "hour-content";
      /////////////////////////////////////////////////////////////
     // Content of the elements
     /////////////////////////////////////////////////////////////
@@ -1650,7 +1650,7 @@ function frontPage() {
     feels.textContent = `Feels like: ${info.hourly[0].feels_like} °F`;
     humidity.textContent = `Humidity: ${info.hourly[0].humidity}`;
 
-    windDeg.textContent = ` Wind Degree: ${info.hourly[0].deg}`
+    windDeg.textContent = ` Wind Degree: ${info.hourly[0].wind_deg}`
     windGust.textContent = `Wind Gust: ${info.hourly[0].wind_gust} `
     visibility.textContent = `Visibility: ${info.hourly[0].visibility}`
     clouds.textContent = `Clouds: ${info.hourly[0].clouds}`
@@ -1672,7 +1672,6 @@ function frontPage() {
     today.appendChild(pressure);
     today.appendChild(dewPoint);
     today.appendChild(uvi);
-
     today.appendChild(windSpeed);
 
     main1.appendChild(today);
