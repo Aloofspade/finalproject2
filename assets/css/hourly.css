@@ -2040,3 +2040,17 @@ section {
     background-color: #00CCFF;
     border-radius: 15px;
 }
+
+/* --------------------------------------------------------------- */
+/* Hourly Widget */
+/* --------------------------------------------------------------- */
+
+#hour-widget {
+    background-color: #00CCFF;
+    display: flex;
+    border: #111 2px solid;
+    border-radius: 5px;
+    margin: auto;
+    width: 80%;
+    width: 70%;
+}
