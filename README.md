@@ -34,3 +34,16 @@ Canvas day
 
 Day 8:
 Dylan fixed errors in CSS, and HTML
+
+
+
+# Daniel's Log
+
+## 5/17/21
+- 
+
+## 5/18/21
+- Have to finish the JS for the hourly page
+
+## 5/19/21
+- Have to work on the styles for the houlry page

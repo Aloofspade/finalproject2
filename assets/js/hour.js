@@ -1614,20 +1614,16 @@ function frontPage() {
     main1.id = "hour-widget";
     let today = document.createElement("div");
     //let main = document.createElement("h1");
-
     /////////////////////////////////////////////////////////////
     // declaring the elements
     /////////////////////////////////////////////////////////////
-    let i = [1]
-    for (let j = 0; j < 46; j++) {
+    let i = [-1]
+    for (let j = 0; j < 48; j++) {
         i++;
-    
     // let feels = document.createElement("h1");
     // let temp = document.createElement("h1");
     // let humidity = document.createElement("h1");
-
     let sectionShown = document.createElement("h1");
-
     // let windSpeed = document.createElement("p");
     // let windDeg = document.createElement("p");
     // let windGust = document.createElement("p");
@@ -1636,21 +1632,16 @@ function frontPage() {
     // let pressure = document.createElement("p");
     // let dewPoint = document.createElement("p");
     // let uvi = document.createElement("p");
-
     let sectionHidden = document.createElement("p");
     /////////////////////////////////////////////////////////////
     // Ids of the elements
     /////////////////////////////////////////////////////////////
     //main.id = "hour-widget";\
-
     sectionShown.id = "shown";
     sectionHidden.id = "hidden";
-
-    
     // temp.id = "hour";
     // feels.id = "hour";
     // humidity.id = "hour";
-
     // windSpeed.id = "hour-content";
     // windDeg.id = "hour-content";
     // windGust.id = "hour-content";
@@ -1662,13 +1653,11 @@ function frontPage() {
      /////////////////////////////////////////////////////////////
     // Content of the elements
     /////////////////////////////////////////////////////////////
-    sectionShown.textContent = `Temperature: ${info.hourly[i].temp} °F Feels like: ${info.hourly[i].feels_like} °F Humidity: ${info.hourly[i].humidity}`;
-    sectionHidden.textContent  = ` Wind Degree: ${info.hourly[i].wind_deg} Wind Gust: ${info.hourly[i].wind_gust}  Visibility: ${info.hourly[i].visibility} Clouds: ${info.hourly[i].clouds} Pressure: ${info.hourly[i].pressure} Dew Point: ${info.hourly[i].dew_point} UVI: ${info.hourly[i].uvi} Wind speed: ${info.hourly[i].wind_speed}`;
-
+    sectionShown.textContent = `Hour: ${[i]} Temperature: ${info.hourly[i].temp}°F Feels like: ${info.hourly[i].feels_like}°F Humidity: ${info.hourly[i].humidity}%`;
+    sectionHidden.textContent  = ` Wind Degree: ${info.hourly[i].wind_deg} Wind Gust: ${info.hourly[i].wind_gust}  Visibility: ${info.hourly[i].visibility} Clouds: ${info.hourly[i].clouds} Pressure: ${info.hourly[i].pressure} mm Dew Point: ${info.hourly[i].dew_point}% UVI: ${info.hourly[i].uvi} Wind speed: ${info.hourly[i].wind_speed}`;
     // temp.textContent = `Temperature: ${info.hourly[i].temp} °F`;
     // feels.textContent = `Feels like: ${info.hourly[i].feels_like} °F`;
     // humidity.textContent = `Humidity: ${info.hourly[i].humidity}`;
-    
     // windDeg.textContent = ` Wind Degree: ${info.hourly[i].wind_deg}`;
     // windGust.textContent = `Wind Gust: ${info.hourly[i].wind_gust} `;
     // visibility.textContent = `Visibility: ${info.hourly[i].visibility}`;
@@ -1692,18 +1681,12 @@ function frontPage() {
     // today.appendChild(dewPoint);
     // today.appendChild(uvi);
     // today.appendChild(windSpeed);
-
     today.appendChild(sectionShown);
     today.appendChild(sectionHidden);
     }
-
     main1.appendChild(today);
-
-    console.log(info.hourly);
-    
+    console.log(info.hourly);  
 };
-
-
 frontPage(info);
 
 

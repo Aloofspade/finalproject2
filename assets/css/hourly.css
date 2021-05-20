@@ -2042,9 +2042,15 @@ section {
     padding: 16px;
     font-size: 16px;
     border: 1px black solid;
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
 }
 
 #hour-widget {
+    cursor: default;
     position: relative;
     /* display: inline-block; */
 }
@@ -2056,6 +2062,8 @@ section {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 0;
+    width: 60%;
+    margin: auto;
 }
 
 #hidden a {
@@ -2065,8 +2073,8 @@ section {
     display: block;
 }
 
-#hidden a:hover {background-color: #ddd;}
+#hidden a:active {background-color: #ddd;}
 
-#hour-widget:hover #hidden {display: block;}
+#hour-widget:active #hidden {display: block;}
 
-#hour-widget:hover #shown {background-color: #919191;}
+#hour-widget:active #shown {background-color: #ebebeb;}
