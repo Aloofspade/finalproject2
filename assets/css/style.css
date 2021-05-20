@@ -283,7 +283,7 @@ HEAD #Contact {
     padding: 14px 50px;
     border-radius: 50px;
     transition: 0.5s;
-    margin-top: 30px;
+    margin-top: 20px;
     color: black;
     background: white;
     border: 3px black solid;
@@ -300,7 +300,6 @@ HEAD #Contact {
     padding: 14px 50px;
     border-radius: 50px;
     transition: 0.5s;
-    margin-top: 30px;
     color: black;
     background: white;
     box-shadow: none;
@@ -1666,7 +1665,7 @@ footer #HFooter {
 footer a {
     color: black;
     font-weight: bolder;
-    padding-right: 200px;
+    padding-right: 160px;
 }
 
 footer a:hover {
@@ -1679,7 +1678,7 @@ footer a:hover {
 footer #link {
     color: black;
     font-weight: bolder;
-    padding-right: 200px;
+    padding-right: 205px;
 }
 
 footer #link:hover {

@@ -35,7 +35,11 @@ Canvas day
 Day 8:
 Dylan fixed errors in CSS, and HTML
 
+Day 9: 
+Dylan worked on Resume
 
+Day 10:
+Dylan worked on Resume
 
 # Daniel's Log
 
