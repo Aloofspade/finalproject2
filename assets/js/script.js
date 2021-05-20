@@ -1625,8 +1625,8 @@ function frontPage(weather) {
     windSpeed.textContent = `Wind speed ${weatherArr.current.wind_speed}`;
     if (weatherArr.current.weather[0].description = "clear skies") {
         document.body.style.background = "url(assets/img/clear.jpg)";
-        document.body.style.backgroundSize = "100%"
-        document.body.style.backgroundRepeat = "url(no-repeat)";
+        document.body.style.backgroundSize = "cover"
+        document.body.style.backgroundRepeat = "no-repeat";
         main.textContent = "☀Clear Sky"
     } else {
         document.body.style.backgroundImage = "url(``)";
