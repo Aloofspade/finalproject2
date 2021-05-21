@@ -1607,12 +1607,13 @@ let info = {
 
 
 function frontPage() {
-     /////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////
     // declaring the foundation elements
     /////////////////////////////////////////////////////////////
     let main1 = document.getElementById("main");
     main1.id = "hour-widget";
     let today = document.createElement("div");
+
     //let main = document.createElement("h1");
     /////////////////////////////////////////////////////////////
     // declaring the elements
@@ -1620,74 +1621,102 @@ function frontPage() {
     let i = [-1]
     for (let j = 0; j < 48; j++) {
         i++;
-    // let feels = document.createElement("h1");
-    // let temp = document.createElement("h1");
-    // let humidity = document.createElement("h1");
-    let sectionShown = document.createElement("h1");
-    // let windSpeed = document.createElement("p");
-    // let windDeg = document.createElement("p");
-    // let windGust = document.createElement("p");
-    // let visibility = document.createElement("p");
-    // let clouds = document.createElement("p");
-    // let pressure = document.createElement("p");
-    // let dewPoint = document.createElement("p");
-    // let uvi = document.createElement("p");
-    let sectionHidden = document.createElement("p");
-    /////////////////////////////////////////////////////////////
-    // Ids of the elements
-    /////////////////////////////////////////////////////////////
-    //main.id = "hour-widget";\
-    sectionShown.id = "shown";
-    sectionHidden.id = "hidden";
-    // temp.id = "hour";
-    // feels.id = "hour";
-    // humidity.id = "hour";
-    // windSpeed.id = "hour-content";
-    // windDeg.id = "hour-content";
-    // windGust.id = "hour-content";
-    // visibility.id = "hour-content";
-    // clouds.id = "hour-content";
-    // pressure.id = "hour-content";
-    // dewPoint.id = "hour-content";
-    // uvi.id = "hour-content";
-     /////////////////////////////////////////////////////////////
-    // Content of the elements
-    /////////////////////////////////////////////////////////////
-    sectionShown.textContent = `Hour: ${[i]} Temperature: ${info.hourly[i].temp}°F Feels like: ${info.hourly[i].feels_like}°F Humidity: ${info.hourly[i].humidity}%`;
-    sectionHidden.textContent  = ` Wind Degree: ${info.hourly[i].wind_deg} Wind Gust: ${info.hourly[i].wind_gust}  Visibility: ${info.hourly[i].visibility} Clouds: ${info.hourly[i].clouds} Pressure: ${info.hourly[i].pressure} mm Dew Point: ${info.hourly[i].dew_point}% UVI: ${info.hourly[i].uvi} Wind speed: ${info.hourly[i].wind_speed}`;
-    // temp.textContent = `Temperature: ${info.hourly[i].temp} °F`;
-    // feels.textContent = `Feels like: ${info.hourly[i].feels_like} °F`;
-    // humidity.textContent = `Humidity: ${info.hourly[i].humidity}`;
-    // windDeg.textContent = ` Wind Degree: ${info.hourly[i].wind_deg}`;
-    // windGust.textContent = `Wind Gust: ${info.hourly[i].wind_gust} `;
-    // visibility.textContent = `Visibility: ${info.hourly[i].visibility}`;
-    // clouds.textContent = `Clouds: ${info.hourly[i].clouds}`;
-    // pressure.textContent = `Pressure: ${info.hourly[i].pressure} `;
-    // dewPoint.textContent = `Dew Point: ${info.hourly[i].dew_point} `;
-    // uvi.textContent = `UVI: ${info.hourly[i].uvi}`;
-    // windSpeed.textContent = `Wind speed: ${info.hourly[i].wind_speed}`;
-     /////////////////////////////////////////////////////////////
-    // Appending of the elements
-    /////////////////////////////////////////////////////////////
-    //today.appendChild(main);
-    // today.appendChild(temp);
-    // today.appendChild(feels);
-    // today.appendChild(humidity);
-    // today.appendChild(windDeg);
-    // today.appendChild(windGust);
-    // today.appendChild(visibility);
-    // today.appendChild(clouds);
-    // today.appendChild(pressure);
-    // today.appendChild(dewPoint);
-    // today.appendChild(uvi);
-    // today.appendChild(windSpeed);
-    today.appendChild(sectionShown);
-    today.appendChild(sectionHidden);
+        // let feels = document.createElement("h1");
+        // let temp = document.createElement("h1");
+        // let humidity = document.createElement("h1");
+        let sectionShown = document.createElement("h1");
+        // let windSpeed = document.createElement("p");
+        // let windDeg = document.createElement("p");
+        // let windGust = document.createElement("p");
+        // let visibility = document.createElement("p");
+        // let clouds = document.createElement("p");
+        // let pressure = document.createElement("p");
+        // let dewPoint = document.createElement("p");
+        // let uvi = document.createElement("p");
+        let sectionHidden = document.createElement("div");
+
+        let content = document.createElement("p");
+        /////////////////////////////////////////////////////////////
+        // Ids of the elements
+        /////////////////////////////////////////////////////////////
+        //main.id = "hour-widget";\
+        sectionShown.id = "shown" + [i];
+        sectionHidden.id = "hidden" + [i];
+        // temp.id = "hour";
+
+        // feels.id = "hour";
+        // humidity.id = "hour";
+        // windSpeed.id = "hour-content";
+        // windDeg.id = "hour-content";
+        // windGust.id = "hour-content";
+        // visibility.id = "hour-content";
+        // clouds.id = "hour-content";
+        // pressure.id = "hour-content";
+        // dewPoint.id = "hour-content";
+        // uvi.id = "hour-content";
+        /////////////////////////////////////////////////////////////
+        // Content of the elements
+        /////////////////////////////////////////////////////////////
+        sectionShown.textContent = `Hour: ${[i]} Temperature: ${info.hourly[i].temp}°F Feels like: ${info.hourly[i].feels_like}°F Humidity: ${info.hourly[i].humidity}%`;
+        // sectionHidden.textContent
+        content.textContent = ` Wind Degree: ${info.hourly[i].wind_deg} Wind Gust: ${info.hourly[i].wind_gust}  Visibility: ${info.hourly[i].visibility} Clouds: ${info.hourly[i].clouds} Pressure: ${info.hourly[i].pressure} mm Dew Point: ${info.hourly[i].dew_point}% UVI: ${info.hourly[i].uvi} Wind speed: ${info.hourly[i].wind_speed}`;
+        // temp.textContent = `Temperature: ${info.hourly[i].temp} °F`;
+        // feels.textContent = `Feels like: ${info.hourly[i].feels_like} °F`;
+        // humidity.textContent = `Humidity: ${info.hourly[i].humidity}`;
+        // windDeg.textContent = ` Wind Degree: ${info.hourly[i].wind_deg}`;
+        // windGust.textContent = `Wind Gust: ${info.hourly[i].wind_gust} `;
+        // visibility.textContent = `Visibility: ${info.hourly[i].visibility}`;
+        // clouds.textContent = `Clouds: ${info.hourly[i].clouds}`;
+        // pressure.textContent = `Pressure: ${info.hourly[i].pressure} `;
+        // dewPoint.textContent = `Dew Point: ${info.hourly[i].dew_point} `;
+        // uvi.textContent = `UVI: ${info.hourly[i].uvi}`;
+        // windSpeed.textContent = `Wind speed: ${info.hourly[i].wind_speed}`;
+        /////////////////////////////////////////////////////////////
+        // Appending of the elements
+        /////////////////////////////////////////////////////////////
+        //today.appendChild(main);
+        // today.appendChild(temp);
+        // today.appendChild(feels);
+        // today.appendChild(humidity);
+        // today.appendChild(windDeg);
+        // today.appendChild(windGust);
+        // today.appendChild(visibility);
+        // today.appendChild(clouds);
+        // today.appendChild(pressure);
+        // today.appendChild(dewPoint);
+        // today.appendChild(uvi);
+        // today.appendChild(windSpeed);
+        today.appendChild(sectionShown);
+        today.appendChild(sectionHidden);
+        sectionHidden.appendChild(content);
+
     }
     main1.appendChild(today);
-    console.log(info.hourly);  
+    console.log(info.hourly);
+
+
 };
+
+
+
+
+
 frontPage(info);
+
+var acc = document.getElementsByClassName("shown");
+var k;
+
+for (k = 0; k < acc.length; k++) {
+    acc[k].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var hidden = this.nextElementSibling;
+        if (hidden.style.display === "block") {
+            hidden.style.display = "none";
+        } else {
+            hidden.style.display = "block";
+        }
+    });
+}
 
 
 //createHourly(info);
