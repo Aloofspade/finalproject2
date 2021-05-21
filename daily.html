@@ -12,6 +12,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+    integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
   <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -30,7 +33,6 @@
   <link rel="stylesheet" href="assets/css/daily.css">
   <link href="css/daily.css" rel="stylesheet">
   <link rel="stylesheet" href="css/daily2.css">
-</head>
 
 <body>
 
@@ -106,10 +108,10 @@
       </div>
     </div>
 
-    <a href="index.html">
+    <a id="infoWeek" href="#Btn">
       <div class="week">
         <div class="day">
-          <div class="day-desc">Mon</div>
+          <div class="day-desc"> Mon</div>
           <div class="day-icon" data-icon=""></div>
           <div class="day-low-high">12°/15°</div>
         </div>
@@ -152,7 +154,7 @@
   <!-- Daily Info -->
 
 
-  <div class="title-container text-center">
+  <div id="Btn" class="title-container text-center">
     <div class="title-header">
       Daily Weather Report
     </div>
@@ -160,6 +162,47 @@
 
   <div class="main-container">
     <div class="container">
+
+      <div class="weather-container row">
+        <div class="col-sm-4">
+          Sunday
+          <br>
+          05/16/2021
+        </div>
+        <div class="col-sm-4 text-center">
+          <i class="fas fa-cloud-sun"></i>
+        </div>
+        <div class="col-sm-4 text-right">
+          98&#176;
+          <br>
+          50%
+          <br>
+          SSW 5 mph
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSix5">
+            <button class="accordion-button collapsed" type="button6" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix6" aria-expanded="false" aria-controls="flush-collapseSix6">
+              More Info
+            </button>
+          </h2>
+          <div id="flush-collapseSix6" class="accordion-collapse collapse" aria-labelledby="flush-headingSix6"
+            data-bs-parent="#accordionFlushExample">
+            
+            <div id="info6" class="accordion-body6"><span class="iconify" data-icon="wi-sunrise" data-inline="false"></span> </div>
+            
+          </div>
+          
+        </div>
+
+
+
+
+      </div>
+
+
+
       <div class="weather-container row">
         <div class="col-sm-4">
           Monday
@@ -186,7 +229,7 @@
           </h2>
           <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
             data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">sfggsf </div>
+            <div id="info" class="accordion-body"><span class="iconify" data-icon="wi-sunrise" data-inline="false"></span> </div>
           </div>
         </div>
 
@@ -209,6 +252,20 @@
           <br>
           SSW 3 mph
         </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSix2">
+            <button class="accordion-button collapsed" type="button2" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix2" aria-expanded="false" aria-controls="flush-collapseSix2">
+              More Info
+            </button>
+          </h2>
+          <div id="flush-collapseSix2" class="accordion-collapse collapse" aria-labelledby="flush-headingSix2"
+            data-bs-parent="#accordionFlushExample">
+            <div id="info2" class="accordion-body2"><span class="iconify" data-icon="wi-sunrise" data-inline="false"></span> </div>
+          </div>
+        </div>
+
       </div>
 
       <div class="weather-container row">
@@ -226,6 +283,19 @@
           20%
           <br>
           NNW 2 mph
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSix3">
+            <button class="accordion-button collapsed" type="button3" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix3" aria-expanded="false" aria-controls="flush-collapseSix3">
+              More Info
+            </button>
+          </h2>
+          <div id="flush-collapseSix3" class="accordion-collapse collapse" aria-labelledby="flush-headingSix3"
+            data-bs-parent="#accordionFlushExample">
+            <div id="info3" class="accordion-body3"><span class="iconify" data-icon="wi-sunrise" data-inline="false"></span> </div>
+          </div>
         </div>
       </div>
 
@@ -245,6 +315,22 @@
           <br>
           SSE 15 mph
         </div>
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSix4">
+            <button class="accordion-button collapsed" type="button4" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix4" aria-expanded="false" aria-controls="flush-collapseSix4">
+              More Info
+            </button>
+          </h2>
+          <div id="flush-collapseSix4" class="accordion-collapse collapse" aria-labelledby="flush-headingSix4"
+            data-bs-parent="#accordionFlushExample">
+            <div id="info4" class="accordion-body4"><span class="iconify" data-icon="wi-sunrise" data-inline="false"></span> </div>
+          </div>
+        </div>
+
+
       </div>
 
       <div class="weather-container row">
@@ -263,167 +349,355 @@
           <br>
           NNE 1 mph
         </div>
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSix5">
+            <button class="accordion-button collapsed" type="button5" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix5" aria-expanded="false" aria-controls="flush-collapseSix5">
+              More Info
+            </button>
+          </h2>
+          <div id="flush-collapseSix5" class="accordion-collapse collapse" aria-labelledby="flush-headingSix5"
+            data-bs-parent="#accordionFlushExample">
+            <div id="info5" class="accordion-body5"><span class="iconify" data-icon="wi-sunrise" data-inline="false"></span> </div>
+          </div>
+        </div>
       </div>
+
+      <div class="weather-container row">
+        <div class="col-sm-4">
+          Saturday
+          <br>
+          05/22/2021
+        </div>
+        <div class="col-sm-4 text-center">
+          <i class="fas fa-cloud-sun"></i>
+        </div>
+        <div class="col-sm-4 text-right">
+          100&#176;
+          <br>
+          50%
+          <br>
+          SSW 5 mph
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSix7">
+            <button class="accordion-button collapsed" type="button7" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix7" aria-expanded="false" aria-controls="flush-collapseSix7">
+              More Info
+            </button>
+          </h2>
+          <div id="flush-collapseSix7" class="accordion-collapse collapse" aria-labelledby="flush-headingSix7"
+            data-bs-parent="#accordionFlushExample">
+            <div id="info7" class="accordion-body7"><span class="iconify" data-icon="wi-sunrise" data-inline="false"></span> </div>
+          </div>
+        </div>
+
+
+      </div>
+
     </div>
 
-  </div>
 
-  <!-- info end -->
-  <!-- footer -->
+    <!-- info end -->
 
-  <footer id="footer">
-    <div class="footer-top">
+    <!-- Weather graph -->
+    <div id="app">
       <div class="container">
-        <div class="row">
-          <div id="HFooter" class="col-lg-12 col-md-6 footer-contact">
-            <h3>CLOUD COVER</h3>
-            <p>
-              A108 Adam Street <br> New York, NY 535022<br> United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
+        <div class="my-5">
+          <form v-on:submit.prevent="getData">
+            <div class="row">
+              <div class="col-md-6 offset-md-3">
+                <h5>Enter A City:</h5>
+                <div class="input-group">
+                  <input type="text" class="form-control" v-model="city">
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="submit">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="my-5">
+          <div class="alert alert-info" v-show="loading">
+            Loading...
+          </div>
+          <div v-show="chart != null">
+            <canvas id="myChart"></canvas>
           </div>
         </div>
       </div>
     </div>
-    <div class="container d-md-flex py-4">
-      <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          &copy; Copyright <strong><span>OnePage</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+
+    <!-- end Weather graph -->
+    <!-- in n out ad -->
+    <style>
+      #overlay-ad .image {
+        position: relative;
+      }
+
+      #overlay-ad {
+        position: fixed;
+        text-align: center;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 9999;
+        min-height: 500px;
+      }
+
+      #overlay-ad .wrap {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      #overlay-ad:before {
+        content: '';
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: rgba(0, 0, 0, 0.8);
+      }
+
+      #overlay-ad .icon-close {
+        color: #fff;
+        cursor: pointer;
+        float: right;
+        height: 28px;
+        width: 28px;
+        border: 1px solid #fff;
+        position: absolute;
+        top: -8px;
+        right: -10px;
+        border-radius: 50%;
+        line-height: 1.8;
+        background: #ff0000;
+        font-weight: bold;
+        font-size: 0.9em;
+      }
+
+      .icon-close span {
+        position: absolute;
+        font-size: 0.8em;
+        left: 6px;
+      }
+
+      .img-responsive {
+        width: 400px;
+        height: 400px;
+      }
+    </style>
+    <div id="overlay-ad" onclick="hideOverlay();">
+      <div class="wrap">
+        <div class="image">
+          <span style="font-family: Arial; font-size:12px;display:block;text-align:left;color:#ccc">Advertisement</span>
+          <div class="bg-lightgray  text-center ">
+            <a target="_blank" href="https://www.in-n-out.com/">
+              <img src="innoutad.png" class="img-responsive">
+            </a>
+          </div>
+          <i class="icon-close" onclick="hideOverlay();"><span>X</span></i>
         </div>
       </div>
     </div>
-  </footer>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/daily.js"></script>
-
-  <!-- jquery for weather -->
-
-
-  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"></script>
-  <script>
-
-    $(document).ready(function () {
-      $('#metrics').on("click", toggleMetric);
-      init();
-    });
-
-    var apiKey = "fe042d917fd66529d9b71ebc231a32d8";
-    var metric = "si";
-    var days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-    var icons = {
-      'clear-day': '\uf00d',
-      'clear-night': '\uf02e',
-      'wind': '\uf050',
-      'day-sunny': '\uf00d',
-      'night-clear': '\uf02e',
-      'rain': '\uf019',
-      'snow': '\uf076',
-      'sleet': '\uf0b5',
-      'strong-wind': '\uf050',
-      'fog': '\uf014',
-      'cloudy': '\uf013',
-      'day-cloudy': '\uf002',
-      'night-cloudy': '\uf086',
-      'hail': '\uf015',
-      'thunderstorm': '\uf01e',
-      'tornado': '\uf056',
-      'partly-cloudy-night': '\uf081',
-      'partly-cloudy-day': '\uf002',
-      'n/a': '\uf07b'
-    };
-
-    function init() {
-      getGeoPos();
-    }
-
-    function getGeoPos() {
-      $.getJSON('https://ipinfo.io', function (data) {
-        setLocation(data);
-        getWeather(data);
-      });
-    }
-
-    function getWeather(geo) {
-      console.log(geo)
-      $.ajax({
-        url: 'https://api.darksky.net/forecast/' + apiKey + '/' + geo.loc + '?units=' + metric,
-        data: { format: 'json' },
-        type: 'GET',
-        dataType: 'jsonp',
-        success: function (data) {
-          setWeather(data);
-        }
-      });
-    }
-
-    function setWeather(forecast) {
-      $('#forecast').text(forecast.currently.summary);
-      var icon = icons[forecast.currently.icon] || icons['n/a'];
-      $('#weatherIcon').attr('data-icon', icon);
-      $('#temperature>.temp').text(Math.ceil(forecast.currently.temperature));
-      var windMetric = metric === 'si' ? 'm/s' : 'mph';
-      $('#wind-text').text(Math.ceil(forecast.currently.windSpeed) + ' ' + windMetric);
-      $('#rain-text').text(forecast.currently.precipProbability);
-      var humidity = Math.round(forecast.currently.humidity * 100);
-      $('#humi-text').text(humidity + '%');
-      $('#low').text(Math.ceil(forecast.daily.data[0].apparentTemperatureMin));
-      $('#high').text(Math.ceil(forecast.daily.data[0].apparentTemperatureMax));
-      console.log(forecast);
-      var daily = getWeekdays(forecast.daily.data);
-      $('.day').each(function (i, day) {
-        $(day).find('.day-desc').text(daily[i].day);
-        var icon = icons[daily[i].icon] || icons['n/a'];
-        $(day).find('.day-icon').attr('data-icon', icon);
-        $(day).find('.day-low-high').text(daily[i].min + '°/' + daily[i].max + '°');
-      });
-    }
-
-    function getWeekdays(week) {
-      return week.map(function (day) {
-        var date = new Date(day.time * 1000);
-        return {
-          day: days[date.getDay()],
-          max: Math.ceil(day.apparentTemperatureMax),
-          min: Math.ceil(day.apparentTemperatureMin),
-          icon: day.icon
-        };
-      }).splice(1, week.length);
-    }
-
-    function setLocation(loc) {
-      if (loc.city) {
-        $('#city').text(loc.city + ', ' + loc.country);
+    <script>
+      function hideOverlay() {
+        document.getElementById('overlay-ad').style.display = 'none';
       }
-    };
 
-    function toggleMetric() {
-      metric = metric === 'si' ? 'us' : 'si';
-      var icon = metric === 'us' ? '\uf045' : '\uf03c';
-      $(this).attr('data-icon', icon);
-      init();
-    }
-  </script>
-  <!-- end jquery -->
+    </script>
+    <!-- ad end  -->
+
+    <!-- footer -->
+
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div id="HFooter" class="col-lg-12 col-md-6 footer-contact">
+              <h3>CLOUD COVER</h3>
+              <p>
+                A108 Adam Street <br> New York, NY 535022<br> United States <br><br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container d-md-flex py-4">
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>OnePage</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/ -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+
+    </footer>
+
+
+
+
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+    <script src="main.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/daily.js"></script>
+
+    <!-- icons -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+    <!-- jquery for weather -->
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+
+      $(document).ready(function () {
+        $('#metrics').on("click", toggleMetric);
+        init();
+      });
+
+      var apiKey = "fe042d917fd66529d9b71ebc231a32d8";
+      var metric = "si";
+      var days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+      var icons = {
+        'clear-day': '\uf00d',
+        'clear-night': '\uf02e',
+        'wind': '\uf050',
+        'day-sunny': '\uf00d',
+        'night-clear': '\uf02e',
+        'rain': '\uf019',
+        'snow': '\uf076',
+        'sleet': '\uf0b5',
+        'strong-wind': '\uf050',
+        'fog': '\uf014',
+        'cloudy': '\uf013',
+        'day-cloudy': '\uf002',
+        'night-cloudy': '\uf086',
+        'hail': '\uf015',
+        'thunderstorm': '\uf01e',
+        'tornado': '\uf056',
+        'partly-cloudy-night': '\uf081',
+        'partly-cloudy-day': '\uf002',
+        'n/a': '\uf07b'
+      };
+
+      function init() {
+        getGeoPos();
+      }
+
+      function getGeoPos() {
+        $.getJSON('https://ipinfo.io', function (data) {
+          setLocation(data);
+          getWeather(data);
+        });
+      }
+
+      function getWeather(geo) {
+        console.log(geo)
+        $.ajax({
+          url: 'https://api.darksky.net/forecast/' + apiKey + '/' + geo.loc + '?units=' + metric,
+          data: { format: 'json' },
+          type: 'GET',
+          dataType: 'jsonp',
+          success: function (data) {
+            setWeather(data);
+          }
+        });
+      }
+
+      function setWeather(forecast) {
+        $('#forecast').text(forecast.currently.summary);
+        var icon = icons[forecast.currently.icon] || icons['n/a'];
+        $('#weatherIcon').attr('data-icon', icon);
+        $('#temperature>.temp').text(Math.ceil(forecast.currently.temperature));
+        var windMetric = metric === 'si' ? 'm/s' : 'mph';
+        $('#wind-text').text(Math.ceil(forecast.currently.windSpeed) + ' ' + windMetric);
+        $('#rain-text').text(forecast.currently.precipProbability);
+        var humidity = Math.round(forecast.currently.humidity * 100);
+        $('#humi-text').text(humidity + '%');
+        $('#low').text(Math.ceil(forecast.daily.data[0].apparentTemperatureMin));
+        $('#high').text(Math.ceil(forecast.daily.data[0].apparentTemperatureMax));
+        console.log(forecast);
+        var daily = getWeekdays(forecast.daily.data);
+        $('.day').each(function (i, day) {
+          $(day).find('.day-desc').text(daily[i].day);
+          var icon = icons[daily[i].icon] || icons['n/a'];
+          $(day).find('.day-icon').attr('data-icon', icon);
+          $(day).find('.day-low-high').text(daily[i].min + '°/' + daily[i].max + '°');
+        });
+      }
+
+      function getWeekdays(week) {
+        return week.map(function (day) {
+          var date = new Date(day.time * 1000);
+          return {
+            day: days[date.getDay()],
+            max: Math.ceil(day.apparentTemperatureMax),
+            min: Math.ceil(day.apparentTemperatureMin),
+            icon: day.icon
+          };
+        }).splice(1, week.length);
+      }
+
+      function setLocation(loc) {
+        if (loc.city) {
+          $('#city').text(loc.city + ', ' + loc.country);
+        }
+      };
+
+      function toggleMetric() {
+        metric = metric === 'si' ? 'us' : 'si';
+        var icon = metric === 'us' ? '\uf045' : '\uf03c';
+        $(this).attr('data-icon', icon);
+        init();
+      }
+
+    </script>
+    <!-- end jquery -->
 </body>
 
 </html>

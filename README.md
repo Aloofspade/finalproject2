@@ -10,6 +10,12 @@
 - I have to start the week location for the rest of the climate.
 ## Day 9 
 - I have style the navbar. To fit with the rest of the page.
+## Day 10 
+- Fixing the js on the daily info 
+## Day 11 
+- Doing the rest of the daily info from js 
+## Day 12 
+- Finishing the project. 
 
 
 Day 1:
