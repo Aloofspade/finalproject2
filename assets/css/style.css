@@ -142,6 +142,7 @@ h6 {
     transition: all 0.5s;
     background: var(--Anti-Flash-White);
     z-index: 997;
+    height: 100px;
     padding: 15px 0;
     border-bottom: 1px solid #e6f2fb;
 }
@@ -178,6 +179,15 @@ HEAD #Contact {
     letter-spacing: 0.5px;
     font-family: "Poppins", sans-serif;
 }
+
+#header #img:hover{
+    width: 74px;
+    height: 74px;
+    margin-top: -5px;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
 #header .logo a {
     color: #16507b;
 }
@@ -221,7 +231,6 @@ HEAD #Contact {
 
 #hero .container #new #bolden {
     font-size: x-large;
-    color: black;
     font-weight: 500;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
@@ -244,15 +253,15 @@ HEAD #Contact {
 }
 
 #hero h2 {
-    color: #5e5e5e;
     margin: 10px;
     margin-top: -5px;
     font-size: 80px;
     color: black;
-    font-weight: bolder;
+    font-weight: bold;
     margin-left: 150px;
     margin-top: 5px;
 }
+
 
 .button {
     background-color: white;
@@ -274,7 +283,7 @@ HEAD #Contact {
     padding: 14px 50px;
     border-radius: 50px;
     transition: 0.5s;
-    margin-top: 30px;
+    margin-top: 20px;
     color: black;
     background: white;
     border: 3px black solid;
@@ -282,7 +291,7 @@ HEAD #Contact {
 }
 
 .btn-get-started:hover {
-    border: 2px black solid;
+    border: 5px solid black;
     box-shadow: none;
     font-family: "Poppins", sans-serif;
     font-size: 14px;
@@ -291,11 +300,10 @@ HEAD #Contact {
     padding: 14px 50px;
     border-radius: 50px;
     transition: 0.5s;
-    margin-top: 30px;
     color: black;
     background: white;
-    border: 3px black solid;
     box-shadow: none;
+    cursor: none;
 }
 
 .icon-boxes {
@@ -377,14 +385,19 @@ HEAD #Contact {
     margin-right: 20px;
     text-align: center;
 }
+
 #Weather-Box #header1 {
     margin-right: 14%;
+    color: black;
 }
+
 #Weather-Box .topWord {
     margin-top: -27px;
 }
+
 #Weather-Box #bolden {
     margin-right: 14%;
+    color: black;
 }
 
 /*--------------------------------------------------------------
@@ -765,7 +778,6 @@ section {
     text-align: center;
     padding: 70px 20px 80px 20px;
     transition: all ease-in-out 0.3s;
-    background: var(--Anti-Flash-White);
     box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
 }
 
@@ -1647,19 +1659,31 @@ footer {
 }
 
 footer #HFooter {
-    display: inline-flex;
-    justify-content: space-between;
+    display: inline;
 }
 
 footer a {
     color: black;
     font-weight: bolder;
-    padding-right: 275px;
+    padding-right: 160px;
 }
 
 footer a:hover {
     justify-content: none;
     color: blue;
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: none;
+}
+
+footer #link {
+    color: black;
+    font-weight: bolder;
+    padding-right: 205px;
+}
+
+footer #link:hover {
+    justify-content: none;
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
 }
