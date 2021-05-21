@@ -1576,7 +1576,6 @@ let weatherArr = {
     }
     ]
 }
-
 // "lat": 33.53,
 // "lon": -112.18,
 // "timezone": "America/Phoenix",
@@ -1626,8 +1625,8 @@ function frontPage(weather) {
     windSpeed.textContent = `Wind speed ${weatherArr.current.wind_speed}`;
     if (weatherArr.current.weather[0].description = "clear skies") {
         document.body.style.background = "url(assets/img/clear.jpg)";
-        document.body.style.backgroundSize = "100%"
-        document.body.style.backgroundRepeat = "url(no-repeat)";
+        document.body.style.backgroundSize = "cover"
+        document.body.style.backgroundRepeat = "no-repeat";
         main.textContent = "☀Clear Sky"
     } else {
         document.body.style.backgroundImage = "url(``)";
@@ -1638,21 +1637,20 @@ function frontPage(weather) {
     today.appendChild(feels);
     today.appendChild(windSpeed);
     main1.appendChild(today);
+    let i = 0;
+    let j = 0;
+    let time = setInterval(function () {
+        if (i <= 256) {
+            i++;
+            j--;
+            $(".name").css('color', `rgb(${i}, ${i}, ${i})`);
+        }
+    }, 1);
+    setTimeout(() => {
+        clearInterval(time);
+    }, 1650);
 };
 frontPage(weatherArr);
-
-let i = 0;
-let j = 0;
-let time = setInterval(function () {
-    if (i <= 256) {
-        i++;
-        j--;
-        $(".name").css('color', `rgb(${i}, ${i}, ${i})`);
-    }
-}, 1);
-setTimeout(() => {
-    clearInterval(time);
-}, 1650);
 
 
 // const changingBackgrounds = () => {
