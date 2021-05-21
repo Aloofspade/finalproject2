@@ -60,3 +60,6 @@ Dylan worked on Resume and did finishing touches on home page
 
 ## 5/19/21
 - Have to work on the styles for the houlry page
+
+## 5/20/21
+- Fix css and dropdown on hourly page
