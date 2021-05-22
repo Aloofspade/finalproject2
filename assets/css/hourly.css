@@ -2037,16 +2037,17 @@ section {
 
 
 
-#shown0, #shown1 {
+#shown {
     color: black;
     padding: 10px;
-    font-size: 16px;
+    font-size: 20px;
     border: 1px black solid;
-    width: 50%;
+    width: 60%;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     overflow: hidden;
+    text-align: center;
 }
 
 #hidden {
@@ -2058,34 +2059,35 @@ section {
     margin-top: 20px;
     margin-bottom: 20px;
     overflow: hidden;
+    text-align: center;
 }
 
-#hour-widget {
-    cursor: default;
-    position: relative;
-    display: inline-block;
-}
+/* #hour-widget { */
+    /* cursor: default; */
+    /* position: relative; */
+    /* display: inline-block; */
+/* } */
 
-#hidden0 { 
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 0;
-    width: 60%;
-    margin: auto;
-}
+/* #hidden {  */
+    /* display: none; */
+    /* position: absolute; */
+    /* background-color: #f1f1f1; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    /* z-index: 0; */
+    /* width: 60%; */
+    /* margin: auto; */
+/* } */
 
-#hidden0 a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
+/* #hidden0 a { */
+    /* color: black; */
+    /* padding: 12px 16px; */
+    /* text-decoration: none; */
+    /* display: block; */
+/* } */
 
-#hidden0 a:active {background-color: #ddd;}
+/* #hidden0 a:active {background-color: #ddd;} */
 
-#hour-widget:active #hidden0 {display: block;}
+/* #hour-widget:active #hidden0 {display: block;} */
 
-#hour-widget:active #shown0 {background-color: #ebebeb;}
+/* #hour-widget:active #shown0 {background-color: #ebebeb;} */
