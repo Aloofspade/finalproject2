@@ -69,3 +69,7 @@ Dylan worked on Resume and did finishing touches on home page
 
 ## 5/20/21
 - Fix css and dropdown on hourly page
+
+## 5/21/21
+
+- Fina styling for the hourly page

@@ -1640,8 +1640,8 @@ function frontPage() {
         // Ids of the elements
         /////////////////////////////////////////////////////////////
         //main.id = "hour-widget";\
-        sectionShown.id = "shown" + [i];
-        sectionHidden.id = "hidden" + [i];
+        sectionShown.id = "shown";
+        sectionHidden.id = "hidden";
         // temp.id = "hour";
 
         // feels.id = "hour";
@@ -1657,7 +1657,7 @@ function frontPage() {
         /////////////////////////////////////////////////////////////
         // Content of the elements
         /////////////////////////////////////////////////////////////
-        sectionShown.textContent = `Hour: ${[i]} Temperature: ${info.hourly[i].temp}°F Feels like: ${info.hourly[i].feels_like}°F Humidity: ${info.hourly[i].humidity}%`;
+        sectionShown.textContent = `Temperature: ${info.hourly[i].temp}°F Feels like: ${info.hourly[i].feels_like}°F Humidity: ${info.hourly[i].humidity}%`;
         // sectionHidden.textContent
         content.textContent = ` Wind Degree: ${info.hourly[i].wind_deg} Wind Gust: ${info.hourly[i].wind_gust}  Visibility: ${info.hourly[i].visibility} Clouds: ${info.hourly[i].clouds} Pressure: ${info.hourly[i].pressure} mm Dew Point: ${info.hourly[i].dew_point}% UVI: ${info.hourly[i].uvi} Wind speed: ${info.hourly[i].wind_speed}`;
         // temp.textContent = `Temperature: ${info.hourly[i].temp} °F`;
