@@ -1,6 +1,6 @@
 let climate = `{
 
- "data" :{
+ 
   "lat": 33.53,
   "lon": -112.18,
   "timezone": "America/Phoenix",
@@ -1694,7 +1694,7 @@ let climate = `{
       "uvi": 10
     }
   ]
-}
+
 
 }`;
 
@@ -1733,17 +1733,702 @@ let climate = `{
 // });
 
 
-let accordion = document.getElementsByClassName("accordion-body");
+let accordion = document.getElementById("info")
 let accordionObj = JSON.parse(climate);
 
 
 createData(accordionObj);
 
-function createData(accordionObj) {
+function createData(obj) {
 
-  const p1 = document.createElement("p");
-  p1.textContent = `${accordionObj["pressure"]}`
-  createData.appendChild(p1);
+  const day = obj["daily"];
+
+
+
+
+  const h5 = document.createElement("h3")
+  h5.textContent = `Sunrise`
+  accordion.appendChild(h5);
+
+  const p5 = document.createElement("p")
+  p5.textContent = `${day[0]["sunrise"]}`
+  accordion.appendChild(p5);
+
+
+ 
+  
+  const h6 = document.createElement("h3")
+  h6.textContent = `Sunset`
+  accordion.appendChild(h6);
+
+  const p6 = document.createElement("p")
+  p6.textContent = `${day[0]["sunset"]}`
+  accordion.appendChild(p6);
+
+
+  const h7 = document.createElement("h3")
+  h7.textContent = `Moonrise`
+  accordion.appendChild(h7);
+
+  const p7 = document.createElement("p")
+  p7.textContent = `${day[0]["moonrise"]}`
+  accordion.appendChild(p7);
+
+  const h8 = document.createElement("h3")
+  h8.textContent = `Moonset`
+  accordion.appendChild(h8);
+
+  const p8 = document.createElement("p")
+  p8.textContent = `${day[0]["moonset"]}`
+  accordion.appendChild(p8);
+
+
+
+  const h1 = document.createElement("h3")
+  h1.textContent = `Wind Speed`
+  accordion.appendChild(h1);
+
+  const p1 = document.createElement("p")
+  p1.textContent = `${day[0]["wind_speed"]}`
+  accordion.appendChild(p1);
+
+
+
+
+  const h2 = document.createElement("h3")
+  h2.textContent = `Humidity`
+  accordion.appendChild(h2);
+
+  const p2 = document.createElement("p")
+  p2.textContent = `${day[0]["humidity"]}`
+  accordion.appendChild(p2);
+
+
+  const h3 = document.createElement("h3")
+  h3.textContent = `clouds`
+  accordion.appendChild(h3);
+
+  const p3 = document.createElement("p")
+  p3.textContent = `${day[0]["clouds"]}`
+  accordion.appendChild(p3);
+
+  const h4 = document.createElement("h3")
+  h4.textContent = `Pressure`
+  accordion.appendChild(h4);
+
+  const p4 = document.createElement("p")
+  p4.textContent = `${day[0]["pressure"]}`
+  accordion.appendChild(p4);
+
+
+
+
+
+
+
 
 }
 
+
+let accordion2 = document.getElementById("info2")
+
+createData2(accordionObj);
+
+function createData2(obj) {
+  const day = obj["daily"];
+
+
+  const h1 = document.createElement("h3")
+  h1.textContent = `Sunrise`
+  accordion2.appendChild(h1);
+
+  const p1 = document.createElement("p")
+  p1.textContent = `${day[1]["sunrise"]}`
+  accordion2.appendChild(p1);
+
+
+  const h2 = document.createElement("h3")
+  h2.textContent = `Sunset`
+  accordion2.appendChild(h2);
+
+  const p2 = document.createElement("p")
+  p2.textContent = `${day[1]["sunset"]}`
+  accordion2.appendChild(p2);
+
+  const h3 = document.createElement("h3")
+  h3.textContent = `Moonrise`
+  accordion2.appendChild(h3);
+
+  const p3 = document.createElement("p")
+  p3.textContent = `${day[1]["moonrise"]}`
+  accordion2.appendChild(p3);
+
+
+  const h4 = document.createElement("h3")
+  h4.textContent = `Moonset`
+  accordion2.appendChild(h4);
+
+  const p4 = document.createElement("p")
+  p4.textContent = `${day[1]["moonset"]}`
+  accordion2.appendChild(p4);
+
+
+  const h5 = document.createElement("h3")
+  h5.textContent = `Wind Speed`
+  accordion2.appendChild(h5);
+
+  const p5 = document.createElement("p")
+  p5.textContent = `${day[1]["wind_speed"]}`
+  accordion2.appendChild(p5);
+
+
+  const h6 = document.createElement("h3")
+  h6.textContent = `Humidity`
+  accordion2.appendChild(h6);
+
+  const p6 = document.createElement("p")
+  p6.textContent = `${day[1]["humidity"]}`
+  accordion2.appendChild(p6);
+
+  const h7 = document.createElement("h3")
+  h7.textContent = `clouds`
+  accordion2.appendChild(h7);
+
+  const p7 = document.createElement("p")
+  p7.textContent = `${day[1]["clouds"]}`
+  accordion2.appendChild(p7);
+
+
+  const h8 = document.createElement("h3")
+  h8.textContent = `Pressure`
+  accordion2.appendChild(h8);
+
+  const p8 = document.createElement("p")
+  p8.textContent = `${day[1]["pressure"]}`
+  accordion2.appendChild(p8);
+
+}
+
+let accordion3 = document.getElementById("info3")
+
+createData3(accordionObj);
+
+function createData3(obj) {
+  const day = obj["daily"];
+
+  const h1 = document.createElement("h3")
+  h1.textContent = `Sunrise`
+  accordion3.appendChild(h1);
+
+  const p1 = document.createElement("p")
+  p1.textContent = `${day[2]["sunrise"]}`
+  accordion3.appendChild(p1);
+
+
+  const h2 = document.createElement("h3")
+  h2.textContent = `Sunset`
+  accordion3.appendChild(h2);
+
+  const p2 = document.createElement("p")
+  p2.textContent = `${day[2]["sunset"]}`
+  accordion3.appendChild(p2);
+
+  const h3 = document.createElement("h3")
+  h3.textContent = `Moonrise`
+  accordion3.appendChild(h3);
+
+  const p3 = document.createElement("p")
+  p3.textContent = `${day[2]["moonrise"]}`
+  accordion3.appendChild(p3);
+
+
+  const h4 = document.createElement("h3")
+  h4.textContent = `Moonset`
+  accordion3.appendChild(h4);
+
+  const p4 = document.createElement("p")
+  p4.textContent = `${day[2]["moonset"]}`
+  accordion3.appendChild(p4);
+
+
+  const h5 = document.createElement("h3")
+  h5.textContent = `Wind Speed`
+  accordion3.appendChild(h5);
+
+  const p5 = document.createElement("p")
+  p5.textContent = `${day[2]["wind_speed"]}`
+  accordion3.appendChild(p5);
+
+
+  const h6 = document.createElement("h3")
+  h6.textContent = `Humidity`
+  accordion3.appendChild(h6);
+
+  const p6 = document.createElement("p")
+  p6.textContent = `${day[2]["humidity"]}`
+  accordion3.appendChild(p6);
+
+  const h7 = document.createElement("h3")
+  h7.textContent = `clouds`
+  accordion3.appendChild(h7);
+
+  const p7 = document.createElement("p")
+  p7.textContent = `${day[2]["clouds"]}`
+  accordion3.appendChild(p7);
+
+
+  const h8 = document.createElement("h3")
+  h8.textContent = `Pressure`
+  accordion3.appendChild(h8);
+
+  const p8 = document.createElement("p")
+  p8.textContent = `${day[2]["pressure"]}`
+  accordion3.appendChild(p8);
+
+
+}
+
+
+let accordion4 = document.getElementById("info4")
+
+createData4(accordionObj);
+
+function createData4(obj) {
+  const day = obj["daily"];
+
+  const h1 = document.createElement("h3")
+  h1.textContent = `Sunrise`
+  accordion4.appendChild(h1);
+
+
+  const p1 = document.createElement("p")
+  p1.textContent = `${day[3]["sunrise"]}`
+  accordion4.appendChild(p1);
+
+
+  const h2 = document.createElement("h3")
+  h2.textContent = `Sunset`
+  accordion4.appendChild(h2);
+
+  const p2 = document.createElement("p")
+  p2.textContent = `${day[3]["sunset"]}`
+  accordion4.appendChild(p2);
+
+  const h3 = document.createElement("h3")
+  h3.textContent = `Moonrise`
+  accordion4.appendChild(h3);
+
+  const p3 = document.createElement("p")
+  p3.textContent = `${day[3]["moonrise"]}`
+  accordion4.appendChild(p3);
+
+
+  const h4 = document.createElement("h3")
+  h4.textContent = `Moonset`
+  accordion4.appendChild(h4);
+
+  const p4 = document.createElement("p")
+  p4.textContent = `${day[3]["moonset"]}`
+  accordion4.appendChild(p4);
+
+
+  const h5 = document.createElement("h3")
+  h5.textContent = `Wind Speed`
+  accordion4.appendChild(h5);
+
+  const p5 = document.createElement("p")
+  p5.textContent = `${day[3]["wind_speed"]}`
+  accordion4.appendChild(p5);
+
+
+  const h6 = document.createElement("h3")
+  h6.textContent = `Humidity`
+  accordion4.appendChild(h6);
+
+  const p6 = document.createElement("p")
+  p6.textContent = `${day[3]["humidity"]}`
+  accordion4.appendChild(p6);
+
+  const h7 = document.createElement("h3")
+  h7.textContent = `clouds`
+  accordion4.appendChild(h7);
+
+  const p7 = document.createElement("p")
+  p7.textContent = `${day[3]["clouds"]}`
+  accordion4.appendChild(p7);
+
+
+  const h8 = document.createElement("h3")
+  h8.textContent = `Pressure`
+  accordion4.appendChild(h8);
+
+  const p8 = document.createElement("p")
+  p8.textContent = `${day[3]["pressure"]}`
+  accordion4.appendChild(p8);
+
+
+}
+
+
+let accordion5 = document.getElementById("info5")
+
+createData5(accordionObj);
+
+function createData5(obj) {
+  const day = obj["daily"];
+
+  const h1 = document.createElement("h3")
+  h1.textContent = `Sunrise`
+  accordion5.appendChild(h1);
+
+
+  const p1 = document.createElement("p")
+  p1.textContent = `${day[4]["sunrise"]}`
+  accordion5.appendChild(p1);
+
+
+  const h2 = document.createElement("h3")
+  h2.textContent = `Sunset`
+  accordion5.appendChild(h2);
+
+  const p2 = document.createElement("p")
+  p2.textContent = `${day[4]["sunset"]}`
+  accordion5.appendChild(p2);
+
+  const h3 = document.createElement("h3")
+  h3.textContent = `Moonrise`
+  accordion5.appendChild(h3);
+
+  const p3 = document.createElement("p")
+  p3.textContent = `${day[4]["moonrise"]}`
+  accordion5.appendChild(p3);
+
+
+  const h4 = document.createElement("h3")
+  h4.textContent = `Moonset`
+  accordion5.appendChild(h4);
+
+  const p4 = document.createElement("p")
+  p4.textContent = `${day[4]["moonset"]}`
+  accordion5.appendChild(p4);
+
+
+  const h5 = document.createElement("h3")
+  h5.textContent = `Wind Speed`
+  accordion5.appendChild(h5);
+
+  const p5 = document.createElement("p")
+  p5.textContent = `${day[4]["wind_speed"]}`
+  accordion5.appendChild(p5);
+
+
+  const h6 = document.createElement("h3")
+  h6.textContent = `Humidity`
+  accordion5.appendChild(h6);
+
+  const p6 = document.createElement("p")
+  p6.textContent = `${day[4]["humidity"]}`
+  accordion5.appendChild(p6);
+
+  const h7 = document.createElement("h3")
+  h7.textContent = `clouds`
+  accordion5.appendChild(h7);
+
+  const p7 = document.createElement("p")
+  p7.textContent = `${day[4]["clouds"]}`
+  accordion5.appendChild(p7);
+
+
+  const h8 = document.createElement("h3")
+  h8.textContent = `Pressure`
+  accordion5.appendChild(h8);
+
+  const p8 = document.createElement("p")
+  p8.textContent = `${day[4]["pressure"]}`
+  accordion5.appendChild(p8);
+
+
+}
+
+
+let accordion6 = document.getElementById("info6")
+
+createData6(accordionObj);
+
+function createData6(obj) {
+  const day = obj["daily"];
+
+  const h1 = document.createElement("h3")
+  h1.textContent = `Sunrise`
+  accordion6.appendChild(h1);
+
+
+  const p1 = document.createElement("p")
+  p1.textContent = `${day[5]["sunrise"]}`
+  accordion6.appendChild(p1);
+
+
+  const h2 = document.createElement("h3")
+  h2.textContent = `Sunset`
+  accordion6.appendChild(h2);
+
+  const p2 = document.createElement("p")
+  p2.textContent = `${day[5]["sunset"]}`
+  accordion6.appendChild(p2);
+
+  const h3 = document.createElement("h3")
+  h3.textContent = `Moonrise`
+  accordion6.appendChild(h3);
+
+  const p3 = document.createElement("p")
+  p3.textContent = `${day[5]["moonrise"]}`
+  accordion6.appendChild(p3);
+
+
+  const h4 = document.createElement("h3")
+  h4.textContent = `Moonset`
+  accordion6.appendChild(h4);
+
+  const p4 = document.createElement("p")
+  p4.textContent = `${day[5]["moonset"]}`
+  accordion6.appendChild(p4);
+
+
+  const h5 = document.createElement("h3")
+  h5.textContent = `Wind Speed`
+  accordion6.appendChild(h5);
+
+  const p5 = document.createElement("p")
+  p5.textContent = `${day[5]["wind_speed"]}`
+  accordion6.appendChild(p5);
+
+
+  const h6 = document.createElement("h3")
+  h6.textContent = `Humidity`
+  accordion6.appendChild(h6);
+
+  const p6 = document.createElement("p")
+  p6.textContent = `${day[5]["humidity"]}`
+  accordion6.appendChild(p6);
+
+  const h7 = document.createElement("h3")
+  h7.textContent = `clouds`
+  accordion6.appendChild(h7);
+
+  const p7 = document.createElement("p")
+  p7.textContent = `${day[5]["clouds"]}`
+  accordion6.appendChild(p7);
+
+
+  const h8 = document.createElement("h3")
+  h8.textContent = `Pressure`
+  accordion6.appendChild(h8);
+
+  const p8 = document.createElement("p")
+  p8.textContent = `${day[5]["pressure"]}`
+  accordion6.appendChild(p8);
+
+
+}
+
+let accordion7 = document.getElementById("info7")
+
+createData7(accordionObj);
+
+function createData7(obj) {
+  const day = obj["daily"];
+
+  const h1 = document.createElement("h3")
+  h1.textContent = `Sunrise`
+  accordion7.appendChild(h1);
+
+
+  const p1 = document.createElement("p")
+  p1.textContent = `${day[6]["sunrise"]}`
+  accordion7.appendChild(p1);
+
+
+  const h2 = document.createElement("h3")
+  h2.textContent = `Sunset`
+  accordion7.appendChild(h2);
+
+  const p2 = document.createElement("p")
+  p2.textContent = `${day[6]["sunset"]}`
+  accordion7.appendChild(p2);
+
+  const h3 = document.createElement("h3")
+  h3.textContent = `Moonrise`
+  accordion7.appendChild(h3);
+
+  const p3 = document.createElement("p")
+  p3.textContent = `${day[6]["moonrise"]}`
+  accordion7.appendChild(p3);
+
+
+  const h4 = document.createElement("h3")
+  h4.textContent = `Moonset`
+  accordion7.appendChild(h4);
+
+  const p4 = document.createElement("p")
+  p4.textContent = `${day[6]["moonset"]}`
+  accordion7.appendChild(p4);
+
+
+  const h5 = document.createElement("h3")
+  h5.textContent = `Wind Speed`
+  accordion7.appendChild(h5);
+
+  const p5 = document.createElement("p")
+  p5.textContent = `${day[6]["wind_speed"]}`
+  accordion7.appendChild(p5);
+
+
+  const h6 = document.createElement("h3")
+  h6.textContent = `Humidity`
+  accordion7.appendChild(h6);
+
+  const p6 = document.createElement("p")
+  p6.textContent = `${day[6]["humidity"]}`
+  accordion7.appendChild(p6);
+
+  const h7 = document.createElement("h3")
+  h7.textContent = `clouds`
+  accordion7.appendChild(h7);
+
+  const p7 = document.createElement("p")
+  p7.textContent = `${day[6]["clouds"]}`
+  accordion7.appendChild(p7);
+
+
+  const h8 = document.createElement("h3")
+  h8.textContent = `Pressure`
+  accordion7.appendChild(h8);
+
+  const p8 = document.createElement("p")
+  p8.textContent = `${day[6]["pressure"]}`
+  accordion7.appendChild(p8);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var app = new Vue({
+  el: '#app',
+  data: {
+      chart: null,
+      city: '',
+      dates: [],
+      temps: [],
+      loading: false,
+      errored: false
+  },
+  methods: {
+      getData: function () {
+
+          this.loading = true;
+
+          if (this.chart != null) {
+              this.chart.destroy();
+          }
+
+          axios.get('https://api.openweathermap.org/data/2.5/forecast', {
+              params: {
+                  q: this.city,
+                  units: 'imperial',
+                  appid: 'fd3150a661c1ddc90d3aefdec0400de4'
+              }
+          })
+              .then(response => {
+
+                  this.dates = response.data.list.map(list => {
+                      return list.dt_txt
+                  })
+
+                  this.temps = response.data.list.map(list => {
+                      return list.main.temp;
+                  })
+
+                  var ctx = document.getElementById("myChart");
+                  this.chart = new Chart(ctx, {
+                      type: 'line',
+                      data: {
+                          labels: this.dates,
+                          datasets: [{
+                              label: 'Avg. Temp',
+                              backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                              borderColor: 'rgb(54, 162, 235)',
+                              fill: false,
+                              data: this.temps
+                          }]
+                      },
+                      options: {
+                          title: {
+                              display: true,
+                              text: 'Temperature with Chart.js'
+                          },
+                          tooltips: {
+                              callbacks: {
+                                  label: function (tooltipItem, data) {
+                                      var label = data.datasets[tooltipItem.datasetIndex].label || '';
+
+                                      if (label) {
+                                          label += ': ';
+                                      }
+
+                                      label += Math.floor(tooltipItem.yLabel);
+                                      return label + '°F';
+                                  }
+                              }
+                          },
+                          scales: {
+                              xAxes: [{
+                                  type: 'time',
+                                  time: {
+                                      unit: 'hour',
+                                      displayFormats: {
+                                          hour: 'M/DD @ hA'
+                                      },
+                                      tooltipFormat: 'MMM. DD @ hA'
+                                  },
+                                  scaleLabel: {
+                                      display: true,
+                                      labelString: 'Date/Time'
+                                  }
+                              }],
+                              yAxes: [{
+                                  scaleLabel: {
+                                      display: true,
+                                      labelString: 'Temperature (°F)'
+                                  },
+                                  ticks: {
+                                      callback: function (value, index, values) {
+                                          return value + '°F';
+                                      }
+                                  }
+                              }]
+                          },
+                      }
+                  });
+
+              })
+              .catch(error => {
+                  console.log(error);
+                  this.errored = true;
+              })
+              .finally(() => this.loading = false)
+      }
+  }
+})

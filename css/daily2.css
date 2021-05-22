@@ -80,6 +80,33 @@ a:hover {
   justify-content: center;
 }
 
+h3 {
+  font-size: 25px;
+  color: blue;
+}
+.accordion-body,
+.accordion-body2,
+.accordion-body3,
+.accordion-body4,
+.accordion-body5,
+.accordion-body6,
+.accordion-body7 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.accordion-item {
+  border: 2px solid black;
+}
+
+#icon2{
+  margin-top: 100px;
+}
+
+
+
+/* end Daily info */
+
 .footer {
   margin-bottom: 0;
   background-color: var(--background-color);
